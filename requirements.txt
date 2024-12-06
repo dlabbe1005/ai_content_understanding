@@ -1,0 +1,14 @@
+numpy>=1.24.2
+pandas>=2.0.0
+python-dotenv>=1.0.0
+openai>=1.2.4
+requests>=2.31.0
+tiktoken
+json_repair
+
+# Code Execution related
+ipykernel==6.26.0
+pre-commit>=2.19.0
+tenacity>=8.2.2
+pytest>=7.0.0
+ipywidgets
