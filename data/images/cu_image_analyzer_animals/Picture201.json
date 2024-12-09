@@ -1,0 +1,38 @@
+{
+  "id": "58df61df-217e-47cc-b2da-6e5e9844f0ee",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "cu_image_analyzer_animals",
+    "apiVersion": "2024-12-01-preview",
+    "createdAt": "2024-12-09T18:19:16Z",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "![image](image)\n",
+        "fields": {
+          "Title": {
+            "type": "string",
+            "valueString": "Running Lions in the Wild"
+          },
+          "AnimalSpecies": {
+            "type": "string",
+            "valueString": "lion"
+          },
+          "NumberOfIndividuals": {
+            "type": "integer",
+            "valueInteger": 3
+          }
+        },
+        "kind": "document",
+        "startPageNumber": 1,
+        "endPageNumber": 1,
+        "unit": "pixel",
+        "pages": [
+          {
+            "pageNumber": 1
+          }
+        ]
+      }
+    ]
+  }
+}

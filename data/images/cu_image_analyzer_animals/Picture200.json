@@ -1,0 +1,38 @@
+{
+  "id": "d726ff89-e385-465d-b0ca-c1432d7cd265",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "cu_image_analyzer_animals",
+    "apiVersion": "2024-12-01-preview",
+    "createdAt": "2024-12-09T18:19:16Z",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "![image](image)\n",
+        "fields": {
+          "Title": {
+            "type": "string",
+            "valueString": "Two Zebras in the Grasslands"
+          },
+          "AnimalSpecies": {
+            "type": "string",
+            "valueString": "zebra"
+          },
+          "NumberOfIndividuals": {
+            "type": "integer",
+            "valueInteger": 2
+          }
+        },
+        "kind": "document",
+        "startPageNumber": 1,
+        "endPageNumber": 1,
+        "unit": "pixel",
+        "pages": [
+          {
+            "pageNumber": 1
+          }
+        ]
+      }
+    ]
+  }
+}

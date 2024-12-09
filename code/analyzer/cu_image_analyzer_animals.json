@@ -1,0 +1,24 @@
+{
+    "description": "Image analyzer",
+    "scenario": "image",
+    "fieldSchema": {
+      "fields": {
+        "Title": {
+          "type": "string",
+          "method": "generate",
+          "description": "A concise title for the image, capturing its main subject and context."
+        },
+        "AnimalSpecies": {
+          "type": "string",
+          "method": "classify",
+          "enum": [ "lion", "zebra", "other" ],
+          "description": "The species of the animal present in the image. Possible values: lion, zebra, other."
+        },
+        "NumberOfIndividuals": {
+          "type": "number",
+          "method": "generate",
+          "description": "The number of individuals of the specified animal species present in the image."
+        }
+      }
+    }
+  }

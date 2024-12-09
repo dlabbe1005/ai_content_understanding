@@ -1,0 +1,28 @@
+{
+  "description": "Marketing video analyzer",
+  "scenario": "videoShot",
+  "fieldSchema": {
+    "fields": {
+      "Description": {
+        "type": "string",
+        "description": "Detailed summary of the video segment, focusing on product characteristics, lighting, and color palette."
+      },
+      "ProductType": {
+        "type": "string",
+        "method": "classify",
+        "enum": [ "ConsumerGoods", "Cars", "BankingInsurance"],
+        "description": "Classifies the type of product featured in the video segment. Possible values: ConsumerGoods, Cars, BankingInsurance."
+      },
+      "ProductBrand": {
+        "type": "string",
+        "method": "generate",
+        "description": "Identify the brand being advertised in the video segment. This should be a specific brand name, not a generic term."
+      },
+      "ProductName": {
+        "type": "string",
+        "method": "generate",
+        "description": "Identify the specific product being advertised in the video segment. This should be a specific product name, not a generic term."
+      }
+    }
+  }
+}

@@ -1,0 +1,1939 @@
+{
+  "id": "a7a81675-4b75-4da7-a6b6-c32c4e63c2f8",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "cu_audio_analyzer_callcenter",
+    "apiVersion": "2024-12-01-preview",
+    "createdAt": "2024-12-09T18:12:07Z",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "```WEBVTT\n\n00:00.760 --> 00:02.560\n<v Agent>Hi, thank you for calling Contoso Pharmacy.\n\n00:02.560 --> 00:03.600\n<v Agent>Who am I speaking with today?\n\n00:04.720 --> 00:05.520\n<v Customer>Good afternoon.\n\n00:05.600 --> 00:06.320\n<v Customer>My name is Mary.\n\n00:06.360 --> 00:08.720\n<v Customer>I'm calling about a refill for my prescribed medications.\n\n00:08.720 --> 00:16.480\n<v Customer>I have been trying to get a hold of someone for weeks and was told that I would get a call back regarding my situation, but it's been weeks and no one's contacted me, so I thought I'd call.\n\n00:17.760 --> 00:19.280\n<v Agent>I understand your frustration, Mary.\n\n00:19.440 --> 00:21.520\n<v Agent>Umm Can you tell me what exactly you're trying to accomplish?\n\n00:22.640 --> 00:27.440\n<v Customer>Yes, I'm trying to get a refill of my prescription drugs that my doctor prescribed to me for cholesterol.\n\n00:29.120 --> 00:31.520\n<v Agent>Okay, certainly happy to check that for you.\n\n00:32.080 --> 00:32.880\n<v Agent>One moment, please.\n\n00:36.400 --> 00:40.000\n<v Agent>I see here that you were on a generic form of Lipitor, is that right?\n\n00:41.160 --> 00:43.360\n<v Customer>Uh Yes, I was taking the generic form of Lipitor.\n\n00:44.880 --> 00:50.400\n<v Agent>Okay, so I see that your doctor stopped prescribing these drugs in 2021, actually.\n\n00:51.800 --> 00:52.160\n<v Customer>Oh, really?\n\n00:52.160 --> 00:53.200\n<v Customer>That doesn't sound right.\n\n00:53.280 --> 00:55.080\n<v Customer>I don't remember him canceling my prescription.\n\n00:56.800 --> 01:02.720\n<v Agent>OK, yeah, I'd be happy to check that for you because sometimes there's a gap in the system and it just doesn't get reported.\n\n01:03.680 --> 01:05.280\n<v Agent>So let me take a look here.\n\n01:11.400 --> 01:12.600\n<v Agent>Just a moment.\n\n01:17.320 --> 01:23.800\n<v Agent>So I'm seeing here that your doctor had these drugs prescribed to you from 2012 through 2021.\n\n01:25.680 --> 01:26.400\n<v Customer>Oh, huh.\n\n01:26.400 --> 01:28.880\n<v Customer>I mean, I'm definitely supposed to be taking something else.\n\n01:29.360 --> 01:30.320\n<v Customer>Would you check, please?\n\n01:32.720 --> 01:32.960\n<v Agent>Okay.\n\n01:34.480 --> 01:40.080\n<v Agent>Yeah, according to the latest records provided by the doctor's office, you're now on a different drug, metformin.\n\n01:41.200 --> 01:45.640\n<v Agent>Would you like us to go ahead and fill that prescription for you for pickup, the metformin 500 milligrams?\n\n01:45.640 --> 01:45.680\n<v Agent>Uh.\n\n01:47.680 --> 01:49.040\n<v Customer>Yeah, Yeah thank you so much.\n\n01:49.120 --> 01:50.720\n<v Customer>I'm almost out, so that'd be perfect.\n\n01:52.080 --> 01:53.840\n<v Agent>Uh You're very welcome, Mary.\n\n01:54.000 --> 01:56.000\n<v Agent>Please let us know if there's anything else we can do for you today.\n\n01:57.120 --> 01:57.880\n<v Customer>Okay, thank you.```",
+        "fields": {
+          "Sentiment": {
+            "type": "string",
+            "valueString": "Neutral"
+          },
+          "Summary": {
+            "type": "string",
+            "valueString": "Mary called Contoso Pharmacy to inquire about a refill for her prescribed medications. She expressed frustration over not receiving a callback regarding her prescription. The agent checked her records and found that her doctor had stopped prescribing the generic form of Lipitor in 2021 and had switched her to metformin. The agent offered to fill the metformin prescription for pickup, which Mary accepted."
+          },
+          "Companies": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "Name": {
+                    "type": "string",
+                    "valueString": "Contoso Pharmacy"
+                  }
+                }
+              }
+            ]
+          },
+          "People": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "Name": {
+                    "type": "string",
+                    "valueString": "Mary"
+                  },
+                  "Role": {
+                    "type": "string",
+                    "valueString": "Customer"
+                  }
+                }
+              }
+            ]
+          },
+          "Topics": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "string",
+                "valueString": "Prescription refill"
+              },
+              {
+                "type": "string",
+                "valueString": "Medication change"
+              },
+              {
+                "type": "string",
+                "valueString": "Customer service"
+              }
+            ]
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 0,
+        "endTimeMs": 120743,
+        "transcriptPhrases": [
+          {
+            "speaker": "Agent",
+            "startTimeMs": 760,
+            "endTimeMs": 2560,
+            "text": "Hi, thank you for calling Contoso Pharmacy.",
+            "confidence": 0.926,
+            "words": [
+              {
+                "startTimeMs": 760,
+                "endTimeMs": 960,
+                "text": "Hi,"
+              },
+              {
+                "startTimeMs": 960,
+                "endTimeMs": 1160,
+                "text": "thank"
+              },
+              {
+                "startTimeMs": 1160,
+                "endTimeMs": 1240,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 1240,
+                "endTimeMs": 1360,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 1360,
+                "endTimeMs": 1600,
+                "text": "calling"
+              },
+              {
+                "startTimeMs": 1600,
+                "endTimeMs": 1920,
+                "text": "Contoso"
+              },
+              {
+                "startTimeMs": 1920,
+                "endTimeMs": 2560,
+                "text": "Pharmacy."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 2560,
+            "endTimeMs": 3600,
+            "text": "Who am I speaking with today?",
+            "confidence": 0.926,
+            "words": [
+              {
+                "startTimeMs": 2560,
+                "endTimeMs": 2720,
+                "text": "Who"
+              },
+              {
+                "startTimeMs": 2720,
+                "endTimeMs": 2800,
+                "text": "am"
+              },
+              {
+                "startTimeMs": 2800,
+                "endTimeMs": 2880,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 2880,
+                "endTimeMs": 3160,
+                "text": "speaking"
+              },
+              {
+                "startTimeMs": 3160,
+                "endTimeMs": 3280,
+                "text": "with"
+              },
+              {
+                "startTimeMs": 3280,
+                "endTimeMs": 3600,
+                "text": "today?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 4720,
+            "endTimeMs": 5520,
+            "text": "Good afternoon.",
+            "confidence": 0.926,
+            "words": [
+              {
+                "startTimeMs": 4720,
+                "endTimeMs": 4920,
+                "text": "Good"
+              },
+              {
+                "startTimeMs": 4920,
+                "endTimeMs": 5520,
+                "text": "afternoon."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 5600,
+            "endTimeMs": 6320,
+            "text": "My name is Mary.",
+            "confidence": 0.926,
+            "words": [
+              {
+                "startTimeMs": 5600,
+                "endTimeMs": 5720,
+                "text": "My"
+              },
+              {
+                "startTimeMs": 5720,
+                "endTimeMs": 5840,
+                "text": "name"
+              },
+              {
+                "startTimeMs": 5840,
+                "endTimeMs": 5920,
+                "text": "is"
+              },
+              {
+                "startTimeMs": 5920,
+                "endTimeMs": 6320,
+                "text": "Mary."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 6360,
+            "endTimeMs": 8720,
+            "text": "I'm calling about a refill for my prescribed medications.",
+            "confidence": 0.926,
+            "words": [
+              {
+                "startTimeMs": 6360,
+                "endTimeMs": 6440,
+                "text": "I'm"
+              },
+              {
+                "startTimeMs": 6480,
+                "endTimeMs": 6720,
+                "text": "calling"
+              },
+              {
+                "startTimeMs": 6720,
+                "endTimeMs": 6880,
+                "text": "about"
+              },
+              {
+                "startTimeMs": 6880,
+                "endTimeMs": 6920,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 6920,
+                "endTimeMs": 7280,
+                "text": "refill"
+              },
+              {
+                "startTimeMs": 7280,
+                "endTimeMs": 7400,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 7400,
+                "endTimeMs": 7520,
+                "text": "my"
+              },
+              {
+                "startTimeMs": 7520,
+                "endTimeMs": 7960,
+                "text": "prescribed"
+              },
+              {
+                "startTimeMs": 7960,
+                "endTimeMs": 8720,
+                "text": "medications."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 8720,
+            "endTimeMs": 16480,
+            "text": "I have been trying to get a hold of someone for weeks and was told that I would get a call back regarding my situation, but it's been weeks and no one's contacted me, so I thought I'd call.",
+            "confidence": 0.926,
+            "words": [
+              {
+                "startTimeMs": 8720,
+                "endTimeMs": 8800,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 8800,
+                "endTimeMs": 8960,
+                "text": "have"
+              },
+              {
+                "startTimeMs": 8960,
+                "endTimeMs": 9120,
+                "text": "been"
+              },
+              {
+                "startTimeMs": 9120,
+                "endTimeMs": 9440,
+                "text": "trying"
+              },
+              {
+                "startTimeMs": 9440,
+                "endTimeMs": 9520,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 9520,
+                "endTimeMs": 9640,
+                "text": "get"
+              },
+              {
+                "startTimeMs": 9640,
+                "endTimeMs": 9680,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 9680,
+                "endTimeMs": 9880,
+                "text": "hold"
+              },
+              {
+                "startTimeMs": 9880,
+                "endTimeMs": 9960,
+                "text": "of"
+              },
+              {
+                "startTimeMs": 9960,
+                "endTimeMs": 10320,
+                "text": "someone"
+              },
+              {
+                "startTimeMs": 10320,
+                "endTimeMs": 10480,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 10480,
+                "endTimeMs": 10880,
+                "text": "weeks"
+              },
+              {
+                "startTimeMs": 10920,
+                "endTimeMs": 11040,
+                "text": "and"
+              },
+              {
+                "startTimeMs": 11040,
+                "endTimeMs": 11200,
+                "text": "was"
+              },
+              {
+                "startTimeMs": 11200,
+                "endTimeMs": 11400,
+                "text": "told"
+              },
+              {
+                "startTimeMs": 11400,
+                "endTimeMs": 11520,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 11520,
+                "endTimeMs": 11560,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 11560,
+                "endTimeMs": 11680,
+                "text": "would"
+              },
+              {
+                "startTimeMs": 11680,
+                "endTimeMs": 11800,
+                "text": "get"
+              },
+              {
+                "startTimeMs": 11800,
+                "endTimeMs": 11840,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 11840,
+                "endTimeMs": 12000,
+                "text": "call"
+              },
+              {
+                "startTimeMs": 12000,
+                "endTimeMs": 12400,
+                "text": "back"
+              },
+              {
+                "startTimeMs": 12640,
+                "endTimeMs": 12960,
+                "text": "regarding"
+              },
+              {
+                "startTimeMs": 12960,
+                "endTimeMs": 13040,
+                "text": "my"
+              },
+              {
+                "startTimeMs": 13040,
+                "endTimeMs": 13680,
+                "text": "situation,"
+              },
+              {
+                "startTimeMs": 13680,
+                "endTimeMs": 13920,
+                "text": "but"
+              },
+              {
+                "startTimeMs": 13920,
+                "endTimeMs": 14080,
+                "text": "it's"
+              },
+              {
+                "startTimeMs": 14080,
+                "endTimeMs": 14200,
+                "text": "been"
+              },
+              {
+                "startTimeMs": 14200,
+                "endTimeMs": 14440,
+                "text": "weeks"
+              },
+              {
+                "startTimeMs": 14440,
+                "endTimeMs": 14560,
+                "text": "and"
+              },
+              {
+                "startTimeMs": 14560,
+                "endTimeMs": 14720,
+                "text": "no"
+              },
+              {
+                "startTimeMs": 14720,
+                "endTimeMs": 14880,
+                "text": "one's"
+              },
+              {
+                "startTimeMs": 14880,
+                "endTimeMs": 15360,
+                "text": "contacted"
+              },
+              {
+                "startTimeMs": 15360,
+                "endTimeMs": 15520,
+                "text": "me,"
+              },
+              {
+                "startTimeMs": 15520,
+                "endTimeMs": 15760,
+                "text": "so"
+              },
+              {
+                "startTimeMs": 15840,
+                "endTimeMs": 15920,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 15920,
+                "endTimeMs": 16080,
+                "text": "thought"
+              },
+              {
+                "startTimeMs": 16080,
+                "endTimeMs": 16160,
+                "text": "I'd"
+              },
+              {
+                "startTimeMs": 16160,
+                "endTimeMs": 16480,
+                "text": "call."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 17760,
+            "endTimeMs": 19280,
+            "text": "I understand your frustration, Mary.",
+            "confidence": 0.926,
+            "words": [
+              {
+                "startTimeMs": 17760,
+                "endTimeMs": 17920,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 17920,
+                "endTimeMs": 18320,
+                "text": "understand"
+              },
+              {
+                "startTimeMs": 18320,
+                "endTimeMs": 18440,
+                "text": "your"
+              },
+              {
+                "startTimeMs": 18440,
+                "endTimeMs": 18880,
+                "text": "frustration,"
+              },
+              {
+                "startTimeMs": 18880,
+                "endTimeMs": 19280,
+                "text": "Mary."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 19440,
+            "endTimeMs": 21520,
+            "text": "Umm Can you tell me what exactly you're trying to accomplish?",
+            "confidence": 0.926,
+            "words": [
+              {
+                "startTimeMs": 19440,
+                "endTimeMs": 19680,
+                "text": "Umm"
+              },
+              {
+                "startTimeMs": 19760,
+                "endTimeMs": 19880,
+                "text": "Can"
+              },
+              {
+                "startTimeMs": 19880,
+                "endTimeMs": 19960,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 19960,
+                "endTimeMs": 20080,
+                "text": "tell"
+              },
+              {
+                "startTimeMs": 20080,
+                "endTimeMs": 20240,
+                "text": "me"
+              },
+              {
+                "startTimeMs": 20240,
+                "endTimeMs": 20400,
+                "text": "what"
+              },
+              {
+                "startTimeMs": 20400,
+                "endTimeMs": 20760,
+                "text": "exactly"
+              },
+              {
+                "startTimeMs": 20760,
+                "endTimeMs": 20880,
+                "text": "you're"
+              },
+              {
+                "startTimeMs": 20880,
+                "endTimeMs": 21120,
+                "text": "trying"
+              },
+              {
+                "startTimeMs": 21120,
+                "endTimeMs": 21200,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 21200,
+                "endTimeMs": 21520,
+                "text": "accomplish?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 22640,
+            "endTimeMs": 27440,
+            "text": "Yes, I'm trying to get a refill of my prescription drugs that my doctor prescribed to me for cholesterol.",
+            "confidence": 0.926,
+            "words": [
+              {
+                "startTimeMs": 22640,
+                "endTimeMs": 22960,
+                "text": "Yes,"
+              },
+              {
+                "startTimeMs": 23040,
+                "endTimeMs": 23200,
+                "text": "I'm"
+              },
+              {
+                "startTimeMs": 23200,
+                "endTimeMs": 23440,
+                "text": "trying"
+              },
+              {
+                "startTimeMs": 23440,
+                "endTimeMs": 23520,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 23520,
+                "endTimeMs": 23640,
+                "text": "get"
+              },
+              {
+                "startTimeMs": 23640,
+                "endTimeMs": 23680,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 23680,
+                "endTimeMs": 23920,
+                "text": "refill"
+              },
+              {
+                "startTimeMs": 23960,
+                "endTimeMs": 24040,
+                "text": "of"
+              },
+              {
+                "startTimeMs": 24040,
+                "endTimeMs": 24160,
+                "text": "my"
+              },
+              {
+                "startTimeMs": 24160,
+                "endTimeMs": 24640,
+                "text": "prescription"
+              },
+              {
+                "startTimeMs": 24640,
+                "endTimeMs": 25200,
+                "text": "drugs"
+              },
+              {
+                "startTimeMs": 25280,
+                "endTimeMs": 25440,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 25440,
+                "endTimeMs": 25600,
+                "text": "my"
+              },
+              {
+                "startTimeMs": 25600,
+                "endTimeMs": 26000,
+                "text": "doctor"
+              },
+              {
+                "startTimeMs": 26000,
+                "endTimeMs": 26480,
+                "text": "prescribed"
+              },
+              {
+                "startTimeMs": 26480,
+                "endTimeMs": 26560,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 26560,
+                "endTimeMs": 26720,
+                "text": "me"
+              },
+              {
+                "startTimeMs": 26720,
+                "endTimeMs": 26840,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 26840,
+                "endTimeMs": 27440,
+                "text": "cholesterol."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 29120,
+            "endTimeMs": 31520,
+            "text": "Okay, certainly happy to check that for you.",
+            "confidence": 0.892,
+            "words": [
+              {
+                "startTimeMs": 29120,
+                "endTimeMs": 29440,
+                "text": "Okay,"
+              },
+              {
+                "startTimeMs": 30080,
+                "endTimeMs": 30440,
+                "text": "certainly"
+              },
+              {
+                "startTimeMs": 30440,
+                "endTimeMs": 30680,
+                "text": "happy"
+              },
+              {
+                "startTimeMs": 30680,
+                "endTimeMs": 30760,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 30760,
+                "endTimeMs": 30960,
+                "text": "check"
+              },
+              {
+                "startTimeMs": 30960,
+                "endTimeMs": 31120,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 31120,
+                "endTimeMs": 31280,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 31280,
+                "endTimeMs": 31520,
+                "text": "you."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 32080,
+            "endTimeMs": 32880,
+            "text": "One moment, please.",
+            "confidence": 0.892,
+            "words": [
+              {
+                "startTimeMs": 32080,
+                "endTimeMs": 32280,
+                "text": "One"
+              },
+              {
+                "startTimeMs": 32280,
+                "endTimeMs": 32520,
+                "text": "moment,"
+              },
+              {
+                "startTimeMs": 32520,
+                "endTimeMs": 32880,
+                "text": "please."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 36400,
+            "endTimeMs": 40000,
+            "text": "I see here that you were on a generic form of Lipitor, is that right?",
+            "confidence": 0.892,
+            "words": [
+              {
+                "startTimeMs": 36400,
+                "endTimeMs": 36560,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 36560,
+                "endTimeMs": 36800,
+                "text": "see"
+              },
+              {
+                "startTimeMs": 36800,
+                "endTimeMs": 37120,
+                "text": "here"
+              },
+              {
+                "startTimeMs": 37120,
+                "endTimeMs": 37360,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 37360,
+                "endTimeMs": 37480,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 37480,
+                "endTimeMs": 37680,
+                "text": "were"
+              },
+              {
+                "startTimeMs": 37680,
+                "endTimeMs": 37840,
+                "text": "on"
+              },
+              {
+                "startTimeMs": 37960,
+                "endTimeMs": 38000,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 38000,
+                "endTimeMs": 38480,
+                "text": "generic"
+              },
+              {
+                "startTimeMs": 38480,
+                "endTimeMs": 38760,
+                "text": "form"
+              },
+              {
+                "startTimeMs": 38760,
+                "endTimeMs": 38880,
+                "text": "of"
+              },
+              {
+                "startTimeMs": 38880,
+                "endTimeMs": 39440,
+                "text": "Lipitor,"
+              },
+              {
+                "startTimeMs": 39440,
+                "endTimeMs": 39520,
+                "text": "is"
+              },
+              {
+                "startTimeMs": 39520,
+                "endTimeMs": 39640,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 39640,
+                "endTimeMs": 40000,
+                "text": "right?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 41160,
+            "endTimeMs": 43360,
+            "text": "Uh Yes, I was taking the generic form of Lipitor.",
+            "confidence": 0.892,
+            "words": [
+              {
+                "startTimeMs": 41160,
+                "endTimeMs": 41200,
+                "text": "Uh"
+              },
+              {
+                "startTimeMs": 41200,
+                "endTimeMs": 41520,
+                "text": "Yes,"
+              },
+              {
+                "startTimeMs": 41520,
+                "endTimeMs": 41600,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 41600,
+                "endTimeMs": 41720,
+                "text": "was"
+              },
+              {
+                "startTimeMs": 41720,
+                "endTimeMs": 42000,
+                "text": "taking"
+              },
+              {
+                "startTimeMs": 42000,
+                "endTimeMs": 42080,
+                "text": "the"
+              },
+              {
+                "startTimeMs": 42080,
+                "endTimeMs": 42480,
+                "text": "generic"
+              },
+              {
+                "startTimeMs": 42480,
+                "endTimeMs": 42760,
+                "text": "form"
+              },
+              {
+                "startTimeMs": 42760,
+                "endTimeMs": 42880,
+                "text": "of"
+              },
+              {
+                "startTimeMs": 42880,
+                "endTimeMs": 43360,
+                "text": "Lipitor."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 44880,
+            "endTimeMs": 50400,
+            "text": "Okay, so I see that your doctor stopped prescribing these drugs in 2021, actually.",
+            "confidence": 0.892,
+            "words": [
+              {
+                "startTimeMs": 44880,
+                "endTimeMs": 45200,
+                "text": "Okay,"
+              },
+              {
+                "startTimeMs": 45520,
+                "endTimeMs": 45680,
+                "text": "so"
+              },
+              {
+                "startTimeMs": 45680,
+                "endTimeMs": 45760,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 45760,
+                "endTimeMs": 46280,
+                "text": "see"
+              },
+              {
+                "startTimeMs": 46280,
+                "endTimeMs": 46400,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 46400,
+                "endTimeMs": 46560,
+                "text": "your"
+              },
+              {
+                "startTimeMs": 46560,
+                "endTimeMs": 47120,
+                "text": "doctor"
+              },
+              {
+                "startTimeMs": 47120,
+                "endTimeMs": 47520,
+                "text": "stopped"
+              },
+              {
+                "startTimeMs": 47520,
+                "endTimeMs": 48160,
+                "text": "prescribing"
+              },
+              {
+                "startTimeMs": 48160,
+                "endTimeMs": 48400,
+                "text": "these"
+              },
+              {
+                "startTimeMs": 48400,
+                "endTimeMs": 48800,
+                "text": "drugs"
+              },
+              {
+                "startTimeMs": 48800,
+                "endTimeMs": 49200,
+                "text": "in"
+              },
+              {
+                "startTimeMs": 49200,
+                "endTimeMs": 49920,
+                "text": "2021,"
+              },
+              {
+                "startTimeMs": 49920,
+                "endTimeMs": 50400,
+                "text": "actually."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 51800,
+            "endTimeMs": 52160,
+            "text": "Oh, really?",
+            "confidence": 0.892,
+            "words": [
+              {
+                "startTimeMs": 51800,
+                "endTimeMs": 51840,
+                "text": "Oh,"
+              },
+              {
+                "startTimeMs": 51840,
+                "endTimeMs": 52160,
+                "text": "really?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 52160,
+            "endTimeMs": 53200,
+            "text": "That doesn't sound right.",
+            "confidence": 0.892,
+            "words": [
+              {
+                "startTimeMs": 52160,
+                "endTimeMs": 52320,
+                "text": "That"
+              },
+              {
+                "startTimeMs": 52320,
+                "endTimeMs": 52600,
+                "text": "doesn't"
+              },
+              {
+                "startTimeMs": 52600,
+                "endTimeMs": 52920,
+                "text": "sound"
+              },
+              {
+                "startTimeMs": 52920,
+                "endTimeMs": 53200,
+                "text": "right."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 53280,
+            "endTimeMs": 55080,
+            "text": "I don't remember him canceling my prescription.",
+            "confidence": 0.892,
+            "words": [
+              {
+                "startTimeMs": 53280,
+                "endTimeMs": 53360,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 53360,
+                "endTimeMs": 53520,
+                "text": "don't"
+              },
+              {
+                "startTimeMs": 53520,
+                "endTimeMs": 53840,
+                "text": "remember"
+              },
+              {
+                "startTimeMs": 53880,
+                "endTimeMs": 54000,
+                "text": "him"
+              },
+              {
+                "startTimeMs": 54000,
+                "endTimeMs": 54400,
+                "text": "canceling"
+              },
+              {
+                "startTimeMs": 54400,
+                "endTimeMs": 54520,
+                "text": "my"
+              },
+              {
+                "startTimeMs": 54520,
+                "endTimeMs": 55080,
+                "text": "prescription."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 56800,
+            "endTimeMs": 62720,
+            "text": "OK, yeah, I'd be happy to check that for you because sometimes there's a gap in the system and it just doesn't get reported.",
+            "confidence": 0.92,
+            "words": [
+              {
+                "startTimeMs": 56800,
+                "endTimeMs": 57120,
+                "text": "OK,"
+              },
+              {
+                "startTimeMs": 57440,
+                "endTimeMs": 57600,
+                "text": "yeah,"
+              },
+              {
+                "startTimeMs": 57600,
+                "endTimeMs": 57720,
+                "text": "I'd"
+              },
+              {
+                "startTimeMs": 57720,
+                "endTimeMs": 57840,
+                "text": "be"
+              },
+              {
+                "startTimeMs": 57840,
+                "endTimeMs": 58120,
+                "text": "happy"
+              },
+              {
+                "startTimeMs": 58120,
+                "endTimeMs": 58240,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 58240,
+                "endTimeMs": 58480,
+                "text": "check"
+              },
+              {
+                "startTimeMs": 58480,
+                "endTimeMs": 58720,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 58720,
+                "endTimeMs": 58960,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 58960,
+                "endTimeMs": 59080,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 59080,
+                "endTimeMs": 59600,
+                "text": "because"
+              },
+              {
+                "startTimeMs": 59600,
+                "endTimeMs": 59960,
+                "text": "sometimes"
+              },
+              {
+                "startTimeMs": 59960,
+                "endTimeMs": 60120,
+                "text": "there's"
+              },
+              {
+                "startTimeMs": 60120,
+                "endTimeMs": 60160,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 60160,
+                "endTimeMs": 60520,
+                "text": "gap"
+              },
+              {
+                "startTimeMs": 60520,
+                "endTimeMs": 60600,
+                "text": "in"
+              },
+              {
+                "startTimeMs": 60600,
+                "endTimeMs": 60680,
+                "text": "the"
+              },
+              {
+                "startTimeMs": 60680,
+                "endTimeMs": 61160,
+                "text": "system"
+              },
+              {
+                "startTimeMs": 61160,
+                "endTimeMs": 61480,
+                "text": "and"
+              },
+              {
+                "startTimeMs": 61480,
+                "endTimeMs": 61560,
+                "text": "it"
+              },
+              {
+                "startTimeMs": 61560,
+                "endTimeMs": 61720,
+                "text": "just"
+              },
+              {
+                "startTimeMs": 61720,
+                "endTimeMs": 61960,
+                "text": "doesn't"
+              },
+              {
+                "startTimeMs": 61960,
+                "endTimeMs": 62080,
+                "text": "get"
+              },
+              {
+                "startTimeMs": 62080,
+                "endTimeMs": 62720,
+                "text": "reported."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 63680,
+            "endTimeMs": 65280,
+            "text": "So let me take a look here.",
+            "confidence": 0.92,
+            "words": [
+              {
+                "startTimeMs": 63680,
+                "endTimeMs": 63760,
+                "text": "So"
+              },
+              {
+                "startTimeMs": 63760,
+                "endTimeMs": 63880,
+                "text": "let"
+              },
+              {
+                "startTimeMs": 63880,
+                "endTimeMs": 64080,
+                "text": "me"
+              },
+              {
+                "startTimeMs": 64080,
+                "endTimeMs": 64400,
+                "text": "take"
+              },
+              {
+                "startTimeMs": 64400,
+                "endTimeMs": 64440,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 64440,
+                "endTimeMs": 64800,
+                "text": "look"
+              },
+              {
+                "startTimeMs": 64800,
+                "endTimeMs": 65280,
+                "text": "here."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 71400,
+            "endTimeMs": 72600,
+            "text": "Just a moment.",
+            "confidence": 0.92,
+            "words": [
+              {
+                "startTimeMs": 71400,
+                "endTimeMs": 71720,
+                "text": "Just"
+              },
+              {
+                "startTimeMs": 71720,
+                "endTimeMs": 71800,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 71800,
+                "endTimeMs": 72600,
+                "text": "moment."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 77320,
+            "endTimeMs": 83800,
+            "text": "So I'm seeing here that your doctor had these drugs prescribed to you from 2012 through 2021.",
+            "confidence": 0.92,
+            "words": [
+              {
+                "startTimeMs": 77320,
+                "endTimeMs": 77640,
+                "text": "So"
+              },
+              {
+                "startTimeMs": 77640,
+                "endTimeMs": 77720,
+                "text": "I'm"
+              },
+              {
+                "startTimeMs": 77720,
+                "endTimeMs": 78040,
+                "text": "seeing"
+              },
+              {
+                "startTimeMs": 78040,
+                "endTimeMs": 78280,
+                "text": "here"
+              },
+              {
+                "startTimeMs": 78280,
+                "endTimeMs": 78440,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 78440,
+                "endTimeMs": 78600,
+                "text": "your"
+              },
+              {
+                "startTimeMs": 78600,
+                "endTimeMs": 79160,
+                "text": "doctor"
+              },
+              {
+                "startTimeMs": 79160,
+                "endTimeMs": 79320,
+                "text": "had"
+              },
+              {
+                "startTimeMs": 79320,
+                "endTimeMs": 79480,
+                "text": "these"
+              },
+              {
+                "startTimeMs": 79480,
+                "endTimeMs": 79800,
+                "text": "drugs"
+              },
+              {
+                "startTimeMs": 79800,
+                "endTimeMs": 80280,
+                "text": "prescribed"
+              },
+              {
+                "startTimeMs": 80280,
+                "endTimeMs": 80440,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 80440,
+                "endTimeMs": 80600,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 80600,
+                "endTimeMs": 80840,
+                "text": "from"
+              },
+              {
+                "startTimeMs": 80840,
+                "endTimeMs": 82200,
+                "text": "2012"
+              },
+              {
+                "startTimeMs": 82360,
+                "endTimeMs": 82680,
+                "text": "through"
+              },
+              {
+                "startTimeMs": 82680,
+                "endTimeMs": 83800,
+                "text": "2021."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 85680,
+            "endTimeMs": 86400,
+            "text": "Oh, huh.",
+            "confidence": 0.924,
+            "words": [
+              {
+                "startTimeMs": 85680,
+                "endTimeMs": 86320,
+                "text": "Oh,"
+              },
+              {
+                "startTimeMs": 86320,
+                "endTimeMs": 86400,
+                "text": "huh."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 86400,
+            "endTimeMs": 88880,
+            "text": "I mean, I'm definitely supposed to be taking something else.",
+            "confidence": 0.924,
+            "words": [
+              {
+                "startTimeMs": 86400,
+                "endTimeMs": 86440,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 86440,
+                "endTimeMs": 86560,
+                "text": "mean,"
+              },
+              {
+                "startTimeMs": 86880,
+                "endTimeMs": 86960,
+                "text": "I'm"
+              },
+              {
+                "startTimeMs": 86960,
+                "endTimeMs": 87440,
+                "text": "definitely"
+              },
+              {
+                "startTimeMs": 87440,
+                "endTimeMs": 87720,
+                "text": "supposed"
+              },
+              {
+                "startTimeMs": 87720,
+                "endTimeMs": 87800,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 87800,
+                "endTimeMs": 87880,
+                "text": "be"
+              },
+              {
+                "startTimeMs": 87880,
+                "endTimeMs": 88240,
+                "text": "taking"
+              },
+              {
+                "startTimeMs": 88240,
+                "endTimeMs": 88640,
+                "text": "something"
+              },
+              {
+                "startTimeMs": 88640,
+                "endTimeMs": 88880,
+                "text": "else."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 89360,
+            "endTimeMs": 90320,
+            "text": "Would you check, please?",
+            "confidence": 0.924,
+            "words": [
+              {
+                "startTimeMs": 89360,
+                "endTimeMs": 89520,
+                "text": "Would"
+              },
+              {
+                "startTimeMs": 89520,
+                "endTimeMs": 89600,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 89600,
+                "endTimeMs": 89920,
+                "text": "check,"
+              },
+              {
+                "startTimeMs": 89920,
+                "endTimeMs": 90320,
+                "text": "please?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 92720,
+            "endTimeMs": 92960,
+            "text": "Okay.",
+            "confidence": 0.924,
+            "words": [
+              {
+                "startTimeMs": 92720,
+                "endTimeMs": 92960,
+                "text": "Okay."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 94480,
+            "endTimeMs": 100080,
+            "text": "Yeah, according to the latest records provided by the doctor's office, you're now on a different drug, metformin.",
+            "confidence": 0.924,
+            "words": [
+              {
+                "startTimeMs": 94480,
+                "endTimeMs": 94680,
+                "text": "Yeah,"
+              },
+              {
+                "startTimeMs": 94680,
+                "endTimeMs": 95120,
+                "text": "according"
+              },
+              {
+                "startTimeMs": 95120,
+                "endTimeMs": 95200,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 95200,
+                "endTimeMs": 95280,
+                "text": "the"
+              },
+              {
+                "startTimeMs": 95280,
+                "endTimeMs": 95680,
+                "text": "latest"
+              },
+              {
+                "startTimeMs": 95680,
+                "endTimeMs": 96240,
+                "text": "records"
+              },
+              {
+                "startTimeMs": 96640,
+                "endTimeMs": 97120,
+                "text": "provided"
+              },
+              {
+                "startTimeMs": 97120,
+                "endTimeMs": 97200,
+                "text": "by"
+              },
+              {
+                "startTimeMs": 97200,
+                "endTimeMs": 97280,
+                "text": "the"
+              },
+              {
+                "startTimeMs": 97280,
+                "endTimeMs": 97680,
+                "text": "doctor's"
+              },
+              {
+                "startTimeMs": 97680,
+                "endTimeMs": 98040,
+                "text": "office,"
+              },
+              {
+                "startTimeMs": 98040,
+                "endTimeMs": 98160,
+                "text": "you're"
+              },
+              {
+                "startTimeMs": 98160,
+                "endTimeMs": 98320,
+                "text": "now"
+              },
+              {
+                "startTimeMs": 98320,
+                "endTimeMs": 98480,
+                "text": "on"
+              },
+              {
+                "startTimeMs": 98480,
+                "endTimeMs": 98520,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 98520,
+                "endTimeMs": 98920,
+                "text": "different"
+              },
+              {
+                "startTimeMs": 99000,
+                "endTimeMs": 99200,
+                "text": "drug,"
+              },
+              {
+                "startTimeMs": 99440,
+                "endTimeMs": 100080,
+                "text": "metformin."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 101200,
+            "endTimeMs": 105640,
+            "text": "Would you like us to go ahead and fill that prescription for you for pickup, the metformin 500 milligrams?",
+            "confidence": 0.924,
+            "words": [
+              {
+                "startTimeMs": 101200,
+                "endTimeMs": 101320,
+                "text": "Would"
+              },
+              {
+                "startTimeMs": 101320,
+                "endTimeMs": 101400,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 101400,
+                "endTimeMs": 101600,
+                "text": "like"
+              },
+              {
+                "startTimeMs": 101600,
+                "endTimeMs": 101680,
+                "text": "us"
+              },
+              {
+                "startTimeMs": 101680,
+                "endTimeMs": 101760,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 101760,
+                "endTimeMs": 101880,
+                "text": "go"
+              },
+              {
+                "startTimeMs": 101880,
+                "endTimeMs": 102040,
+                "text": "ahead"
+              },
+              {
+                "startTimeMs": 102040,
+                "endTimeMs": 102200,
+                "text": "and"
+              },
+              {
+                "startTimeMs": 102200,
+                "endTimeMs": 102400,
+                "text": "fill"
+              },
+              {
+                "startTimeMs": 102400,
+                "endTimeMs": 102520,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 102520,
+                "endTimeMs": 103000,
+                "text": "prescription"
+              },
+              {
+                "startTimeMs": 103000,
+                "endTimeMs": 103200,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 103200,
+                "endTimeMs": 103320,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 103320,
+                "endTimeMs": 103440,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 103440,
+                "endTimeMs": 103760,
+                "text": "pickup,"
+              },
+              {
+                "startTimeMs": 103840,
+                "endTimeMs": 103960,
+                "text": "the"
+              },
+              {
+                "startTimeMs": 104240,
+                "endTimeMs": 104760,
+                "text": "metformin"
+              },
+              {
+                "startTimeMs": 104760,
+                "endTimeMs": 105240,
+                "text": "500"
+              },
+              {
+                "startTimeMs": 105240,
+                "endTimeMs": 105640,
+                "text": "milligrams?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 105640,
+            "endTimeMs": 105680,
+            "text": "Uh.",
+            "confidence": 0.924,
+            "words": [
+              {
+                "startTimeMs": 105640,
+                "endTimeMs": 105680,
+                "text": "Uh."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 107680,
+            "endTimeMs": 109040,
+            "text": "Yeah, Yeah thank you so much.",
+            "confidence": 0.924,
+            "words": [
+              {
+                "startTimeMs": 107680,
+                "endTimeMs": 107840,
+                "text": "Yeah,"
+              },
+              {
+                "startTimeMs": 108080,
+                "endTimeMs": 108240,
+                "text": "Yeah"
+              },
+              {
+                "startTimeMs": 108240,
+                "endTimeMs": 108480,
+                "text": "thank"
+              },
+              {
+                "startTimeMs": 108480,
+                "endTimeMs": 108560,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 108560,
+                "endTimeMs": 108640,
+                "text": "so"
+              },
+              {
+                "startTimeMs": 108640,
+                "endTimeMs": 109040,
+                "text": "much."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 109120,
+            "endTimeMs": 110720,
+            "text": "I'm almost out, so that'd be perfect.",
+            "confidence": 0.924,
+            "words": [
+              {
+                "startTimeMs": 109120,
+                "endTimeMs": 109360,
+                "text": "I'm"
+              },
+              {
+                "startTimeMs": 109360,
+                "endTimeMs": 109680,
+                "text": "almost"
+              },
+              {
+                "startTimeMs": 109680,
+                "endTimeMs": 109760,
+                "text": "out,"
+              },
+              {
+                "startTimeMs": 109760,
+                "endTimeMs": 109840,
+                "text": "so"
+              },
+              {
+                "startTimeMs": 109840,
+                "endTimeMs": 110040,
+                "text": "that'd"
+              },
+              {
+                "startTimeMs": 110040,
+                "endTimeMs": 110160,
+                "text": "be"
+              },
+              {
+                "startTimeMs": 110160,
+                "endTimeMs": 110720,
+                "text": "perfect."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 112080,
+            "endTimeMs": 113840,
+            "text": "Uh You're very welcome, Mary.",
+            "confidence": 0.888,
+            "words": [
+              {
+                "startTimeMs": 112080,
+                "endTimeMs": 112120,
+                "text": "Uh"
+              },
+              {
+                "startTimeMs": 112560,
+                "endTimeMs": 113040,
+                "text": "You're"
+              },
+              {
+                "startTimeMs": 113040,
+                "endTimeMs": 113240,
+                "text": "very"
+              },
+              {
+                "startTimeMs": 113240,
+                "endTimeMs": 113480,
+                "text": "welcome,"
+              },
+              {
+                "startTimeMs": 113480,
+                "endTimeMs": 113840,
+                "text": "Mary."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 114000,
+            "endTimeMs": 116000,
+            "text": "Please let us know if there's anything else we can do for you today.",
+            "confidence": 0.888,
+            "words": [
+              {
+                "startTimeMs": 114000,
+                "endTimeMs": 114200,
+                "text": "Please"
+              },
+              {
+                "startTimeMs": 114200,
+                "endTimeMs": 114320,
+                "text": "let"
+              },
+              {
+                "startTimeMs": 114320,
+                "endTimeMs": 114400,
+                "text": "us"
+              },
+              {
+                "startTimeMs": 114400,
+                "endTimeMs": 114520,
+                "text": "know"
+              },
+              {
+                "startTimeMs": 114520,
+                "endTimeMs": 114600,
+                "text": "if"
+              },
+              {
+                "startTimeMs": 114600,
+                "endTimeMs": 114760,
+                "text": "there's"
+              },
+              {
+                "startTimeMs": 114760,
+                "endTimeMs": 115000,
+                "text": "anything"
+              },
+              {
+                "startTimeMs": 115000,
+                "endTimeMs": 115160,
+                "text": "else"
+              },
+              {
+                "startTimeMs": 115160,
+                "endTimeMs": 115240,
+                "text": "we"
+              },
+              {
+                "startTimeMs": 115240,
+                "endTimeMs": 115360,
+                "text": "can"
+              },
+              {
+                "startTimeMs": 115360,
+                "endTimeMs": 115440,
+                "text": "do"
+              },
+              {
+                "startTimeMs": 115440,
+                "endTimeMs": 115600,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 115600,
+                "endTimeMs": 115680,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 115680,
+                "endTimeMs": 116000,
+                "text": "today."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 117120,
+            "endTimeMs": 117880,
+            "text": "Okay, thank you.",
+            "confidence": 0.888,
+            "words": [
+              {
+                "startTimeMs": 117120,
+                "endTimeMs": 117360,
+                "text": "Okay,"
+              },
+              {
+                "startTimeMs": 117520,
+                "endTimeMs": 117760,
+                "text": "thank"
+              },
+              {
+                "startTimeMs": 117760,
+                "endTimeMs": 117880,
+                "text": "you."
+              }
+            ],
+            "locale": "en-US"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "id": "549c6867-6b8c-42cc-ba01-5919e92f8e3f",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "cu_video_analyzer_ads",
+    "apiVersion": "2024-12-01-preview",
+    "createdAt": "2024-12-09T17:58:26Z",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "# Shot 0:0.0 => 0:1.460\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:0.0 ![](keyFrame.0.jpg)\n- 0:1.1 ![](keyFrame.1001.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Pepsi"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Pepsi Zero Sugar"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The segment opens with a close-up of a can of Pepsi Zero Sugar. The lighting is dark, with the can's logo prominently visible, displaying a classic Pepsi color scheme of red, white, and blue."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 0,
+        "endTimeMs": 1460,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:1.460 => 0:3.921\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:1.460 ![](keyFrame.1460.jpg)\n- 0:2.461 ![](keyFrame.2461.jpg)\n- 0:3.462 ![](keyFrame.3462.jpg)",
+        "fields": {
+          "productName": {
+            "type": "string",
+            "valueString": "Pepsi Zero Sugar"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Pepsi"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "This segment shows a can of Pepsi Zero Sugar among other cans and fresh cherries. The lighting is bright and cool, highlighting the refreshing nature of the product. The can is placed on a reflective surface, adding a crisp, fresh look."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 1460,
+        "endTimeMs": 3921,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:3.921 => 0:4.880\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:3.921 ![](keyFrame.3921.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Pepsi"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Pepsi Zero Sugar"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "A hand holds a 12-pack of Pepsi Zero Sugar cans against a background of greenery, suggesting an outdoor setting. The colors are vibrant, emphasizing the product's appeal in a casual, social atmosphere."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 3921,
+        "endTimeMs": 4880,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:4.880 => 0:5.714\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:4.880 ![](keyFrame.4880.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Pepsi"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Pepsi Zero Sugar"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "A hand reaches into ice to grab a can of Pepsi Zero Sugar. The scene is dynamic with splashes of water and ice, conveying a sense of cool refreshment. The colors are icy blues and whites."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 4880,
+        "endTimeMs": 5714,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:5.714 => 0:12.54\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:5.714 ![](keyFrame.5714.jpg)\n- 0:6.715 ![](keyFrame.6715.jpg)\n- 0:7.716 ![](keyFrame.7716.jpg)\n- 0:8.717 ![](keyFrame.8717.jpg)\n- 0:9.718 ![](keyFrame.9718.jpg)\n- 0:10.719 ![](keyFrame.10719.jpg)\n- 0:11.720 ![](keyFrame.11720.jpg)",
+        "fields": {
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Pepsi"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Pepsi Zero Sugar"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The segment includes a close-up of an opening can, the fizzing beverage, and a glass of Pepsi being poured. The colors are rich and dark, with a focus on the fizzy, refreshing texture of the drink. The scene captures the sensory experience of enjoying a Pepsi."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 5714,
+        "endTimeMs": 12054,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:12.54 => 0:13.722\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:12.54 ![](keyFrame.12054.jpg)\n- 0:13.55 ![](keyFrame.13055.jpg)",
+        "fields": {
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Pepsi Zero Sugar"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Pepsi"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "A can of Pepsi Zero Sugar is placed on a table amidst food and people in the background. The scene suggests a lively, social setting, with warm lighting and a focus on the product as a part of the gathering."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 12054,
+        "endTimeMs": 13722,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:13.722 => 0:16.225\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:13.722 ![](keyFrame.13722.jpg)\n- 0:14.723 ![](keyFrame.14723.jpg)\n- 0:15.724 ![](keyFrame.15724.jpg)",
+        "fields": {
+          "productName": {
+            "type": "string",
+            "valueString": "Pepsi Zero Sugar"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Pepsi"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "A person holds a can of Pepsi Zero Sugar in an informal setting, possibly at a food stand. The lighting is cool and the atmosphere casual, presenting the product as a perfect complement to a meal or snack."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 13722,
+        "endTimeMs": 16225,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:16.225 => 0:18.727\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:16.225 ![](keyFrame.16225.jpg)\n- 0:17.226 ![](keyFrame.17226.jpg)\n- 0:18.227 ![](keyFrame.18227.jpg)",
+        "fields": {
+          "productName": {
+            "type": "string",
+            "valueString": "Pepsi"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Pepsi"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The segment opens with a cinematic scene where a person is seen holding a bucket of popcorn branded with the Pepsi logo, presumably in a movie theater setting. The lighting is dim, consistent with a theater environment, with the focus on the vibrant blue and red colors of the Pepsi branding on the popcorn bucket. The background is blurred, indicating a crowd of people, enhancing the feeling of being in a social, lively environment."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 16225,
+        "endTimeMs": 18727,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:18.727 => 0:20.103\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:18.727 ![](keyFrame.18727.jpg)\n- 0:19.728 ![](keyFrame.19728.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Pepsi"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Pepsi"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "This segment transitions to a close-up of a speaker with the Pepsi logo at the center. The logo is surrounded by a dynamic pattern of blue dots, suggesting sound waves or music, creating a lively and energetic atmosphere. The use of blue and red in the logo stands out against the darker background."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 18727,
+        "endTimeMs": 20103,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:20.103 => 0:24.107\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:20.103 ![](keyFrame.20103.jpg)\n- 0:21.104 ![](keyFrame.21104.jpg)\n- 0:22.105 ![](keyFrame.22105.jpg)\n- 0:23.106 ![](keyFrame.23106.jpg)",
+        "fields": {
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Pepsi Zero Sugar"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Pepsi"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The scene shifts to a DJ turntable with the Pepsi logo prominently displayed, being manipulated by a hand. This signifies an energetic and youthful vibe. The sequence continues with a person holding up a can of Pepsi Zero Sugar in a party setting, with vibrant colors and lively background lighting enhancing the festive mood."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 20103,
+        "endTimeMs": 24107,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:24.107 => 0:26.151\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:24.107 ![](keyFrame.24107.jpg)\n- 0:25.108 ![](keyFrame.25108.jpg)\n- 0:26.109 ![](keyFrame.26109.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Pepsi"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Pepsi Zero Sugar"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The focus remains on the Pepsi Zero Sugar can being enjoyed by someone in a social setting, under warm ambient lighting. The scene exudes a sense of enjoyment and refreshment, with the bokeh effect in the background adding to the ambiance of a lively social gathering."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 24107,
+        "endTimeMs": 26151,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:26.151 => 0:30.30\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:26.151 ![](keyFrame.26151.jpg)\n- 0:27.152 ![](keyFrame.27152.jpg)\n- 0:28.153 ![](keyFrame.28153.jpg)\n- 0:29.154 ![](keyFrame.29154.jpg)",
+        "fields": {
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Pepsi Zero Sugar"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Pepsi"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "This concluding segment showcases the Pepsi Zero Sugar can against a black background with animated blue circles, enhancing the product\u2019s appeal. The words \"BETTER WITH PEPSI\" appear, reinforcing the brand's message. The design is sleek and modern, emphasizing the product's refreshing qualities."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 26151,
+        "endTimeMs": 30030,
+        "width": 854,
+        "height": 480
+      }
+    ]
+  }
+}

@@ -1,0 +1,3081 @@
+{
+  "id": "805c7c3e-d2a6-4da8-b365-97b366ae21b6",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "cu_audio_analyzer_callcenter",
+    "apiVersion": "2024-12-01-preview",
+    "createdAt": "2024-12-09T18:12:14Z",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "```WEBVTT\n\n00:00.960 --> 00:01.600\n<v Agent>Good afternoon.\n\n00:01.600 --> 00:02.240\n<v Agent>This is Sam.\n\n00:02.240 --> 00:03.280\n<v Agent>Thank you for calling Contoso.\n\n00:03.280 --> 00:03.920\n<v Agent>How can I help?\n\n00:05.040 --> 00:05.440\n<v Customer>Hi there.\n\n00:05.440 --> 00:06.240\n<v Customer>My name is Mary.\n\n00:06.240 --> 00:09.280\n<v Customer>I'm currently living in Los Angeles, but I'm planning to move to Las Vegas.\n\n00:09.280 --> 00:10.560\n<v Customer>I would like to apply for a loan.\n\n00:12.640 --> 00:12.840\n<v Agent>Okay.\n\n00:13.120 --> 00:14.800\n<v Agent>I see you're currently living in California.\n\n00:14.800 --> 00:16.640\n<v Agent>Let me make sure I understand you correctly.\n\n00:17.120 --> 00:19.720\n<v Agent>Uh You'd like to apply for a loan even though you'll be moving soon.\n\n00:19.720 --> 00:20.200\n<v Agent>Is that right?\n\n00:21.440 --> 00:22.400\n<v Customer>Yes, exactly.\n\n00:22.560 --> 00:27.280\n<v Customer>So I'm planning to relocate soon, but I would like to apply for the loan first so that I can purchase a new home once I move there.\n\n00:28.880 --> 00:30.800\n<v Agent>And are you planning to sell your current home?\n\n00:32.000 --> 00:35.440\n<v Customer>Yes, I will be listing it on the market soon and hopefully it'll sell quickly.\n\n00:35.800 --> 00:41.120\n<v Customer>That's why I'm applying for a loan now, so that I can purchase a new house in Nevada and close on it quickly as well once my current home sells.\n\n00:42.560 --> 00:42.880\n<v Agent>I see.\n\n00:43.680 --> 00:46.240\n<v Agent>Would you mind holding for a moment while I take your information down?\n\n00:47.200 --> 00:47.920\n<v Customer>Yeah, no problem.\n\n00:47.920 --> 00:48.640\n<v Customer>Thank you for your help.\n\n00:50.120 --> 00:50.720\n<v Agent>Mm-hmm.\n\n00:50.720 --> 00:51.440\n<v Agent>Just one moment.\n\n00:58.800 --> 00:59.040\n<v Agent>All right.\n\n00:59.040 --> 01:00.520\n<v Agent>Thank you for your patience, ma'am.\n\n01:00.520 --> 01:02.640\n<v Agent>May I have your first and last name, please?\n\n01:03.520 --> 01:05.520\n<v Customer>Yes, my name is Mary Smith.\n\n01:07.600 --> 01:08.280\n<v Agent>Thank you, Ms.\n\n01:08.280 --> 01:08.640\n<v Agent>Smith.\n\n01:08.960 --> 01:10.400\n<v Agent>May I have your current address, please?\n\n01:11.520 --> 01:11.800\n<v Customer>Yes.\n\n01:11.800 --> 01:18.640\n<v Customer>So my address is 123 Main Street in Los Angeles, California, and the zip code is 90923.\n\n01:20.480 --> 01:22.720\n<v Agent>Sorry, that was a 90 what?\n\n01:24.160 --> 01:26.160\n<v Customer>90923.\n\n01:27.680 --> 01:30.880\n<v Agent>90923 on Main Street.\n\n01:30.880 --> 01:31.200\n<v Agent>Got it.\n\n01:31.520 --> 01:32.000\n<v Agent>Thank you.\n\n01:32.240 --> 01:33.680\n<v Agent>May I have your phone number as well, please?\n\n01:33.680 --> 01:33.720\n<v Agent>Uh.\n\n01:34.960 --> 01:42.480\n<v Customer>Yes, my phone number is 504-529-2351 and then yeah.\n\n01:43.600 --> 01:44.880\n<v Agent>2351.\n\n01:46.640 --> 01:46.880\n<v Agent>Got it.\n\n01:47.520 --> 01:52.480\n<v Agent>And do you have an e-mail address we I can associate with this application?\n\n01:53.640 --> 01:56.640\n<v Customer>Uh Yes, so my e-mail address is mary.a.sm78@gmail.com.\n\n02:02.640 --> 02:08.240\n<v Agent>Mary.a, was that a S-N as in November or M as in Mike?\n\n02:09.520 --> 02:10.320\n<v Customer>M as in Mike.\n\n02:11.520 --> 02:14.560\n<v Agent>Mike78, got it.\n\n02:14.560 --> 02:15.120\n<v Agent>Thank you.\n\n02:15.160 --> 02:15.320\n<v Agent>Ms.\n\n02:15.320 --> 02:17.920\n<v Agent>Smith, do you currently have any other loans?\n\n02:19.520 --> 02:22.240\n<v Customer>Uh Yes, so I currently have two other loans through Contoso.\n\n02:22.720 --> 02:25.840\n<v Customer>So my first one is my car loan and then my other is my student loan.\n\n02:26.080 --> 02:30.680\n<v Customer>They total about 1400 per month combined and my interest rate is 8%.\n\n02:30.680 --> 02:30.840\n<v Customer>I see.\n\n02:30.840 --> 02:31.040\n<v Customer>And.\n\n02:32.960 --> 02:35.360\n<v Agent>You're currently paying those loans off monthly, is that right?\n\n02:36.400 --> 02:37.200\n<v Customer>Yes, of course I do.\n\n02:39.280 --> 02:40.000\n<v Agent>OK, thank you.\n\n02:40.400 --> 02:41.520\n<v Agent>Here's what I suggest we do.\n\n02:41.520 --> 02:47.600\n<v Agent>Let me place you on a brief hold again so that I can talk with one of our loan officers and get this started for you immediately.\n\n02:48.000 --> 02:57.360\n<v Agent>In the meantime, it would be great if you could take a few minutes and complete the remainder of the secure application online at www.contosoloans.com.\n\n02:58.400 --> 02:59.240\n<v Customer>Yeah, that sounds good.\n\n02:59.240 --> 03:00.240\n<v Customer>I can go ahead and get started.\n\n03:00.320 --> 03:01.000\n<v Customer>Thank you for your help.\n\n03:01.960 --> 03:02.240\n<v Agent>Thank you.```",
+        "fields": {
+          "Sentiment": {
+            "type": "string",
+            "valueString": "Positive"
+          },
+          "Summary": {
+            "type": "string",
+            "valueString": "Mary Smith called Contoso to inquire about applying for a loan to purchase a new home in Las Vegas. She is currently living in Los Angeles and plans to sell her current home. Mary has two existing loans with Contoso, a car loan and a student loan, totaling $1400 per month with an 8% interest rate. The agent, Sam, collected her personal information and suggested she complete the secure application online while he consults with a loan officer."
+          },
+          "Companies": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "Name": {
+                    "type": "string",
+                    "valueString": "Contoso"
+                  }
+                }
+              }
+            ]
+          },
+          "People": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "Name": {
+                    "type": "string",
+                    "valueString": "Sam"
+                  },
+                  "Role": {
+                    "type": "string",
+                    "valueString": "Agent"
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Name": {
+                    "type": "string",
+                    "valueString": "Mary Smith"
+                  },
+                  "Role": {
+                    "type": "string",
+                    "valueString": "Customer"
+                  }
+                }
+              }
+            ]
+          },
+          "Topics": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "string",
+                "valueString": "Loan application"
+              },
+              {
+                "type": "string",
+                "valueString": "Relocation"
+              },
+              {
+                "type": "string",
+                "valueString": "Existing loans"
+              },
+              {
+                "type": "string",
+                "valueString": "Home purchase"
+              }
+            ]
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 0,
+        "endTimeMs": 182439,
+        "transcriptPhrases": [
+          {
+            "speaker": "Agent",
+            "startTimeMs": 960,
+            "endTimeMs": 1600,
+            "text": "Good afternoon.",
+            "confidence": 0.936,
+            "words": [
+              {
+                "startTimeMs": 960,
+                "endTimeMs": 1200,
+                "text": "Good"
+              },
+              {
+                "startTimeMs": 1200,
+                "endTimeMs": 1600,
+                "text": "afternoon."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 1600,
+            "endTimeMs": 2240,
+            "text": "This is Sam.",
+            "confidence": 0.936,
+            "words": [
+              {
+                "startTimeMs": 1600,
+                "endTimeMs": 1840,
+                "text": "This"
+              },
+              {
+                "startTimeMs": 1840,
+                "endTimeMs": 1960,
+                "text": "is"
+              },
+              {
+                "startTimeMs": 1960,
+                "endTimeMs": 2240,
+                "text": "Sam."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 2240,
+            "endTimeMs": 3280,
+            "text": "Thank you for calling Contoso.",
+            "confidence": 0.936,
+            "words": [
+              {
+                "startTimeMs": 2240,
+                "endTimeMs": 2440,
+                "text": "Thank"
+              },
+              {
+                "startTimeMs": 2440,
+                "endTimeMs": 2520,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 2520,
+                "endTimeMs": 2640,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 2640,
+                "endTimeMs": 2840,
+                "text": "calling"
+              },
+              {
+                "startTimeMs": 2840,
+                "endTimeMs": 3280,
+                "text": "Contoso."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 3280,
+            "endTimeMs": 3920,
+            "text": "How can I help?",
+            "confidence": 0.936,
+            "words": [
+              {
+                "startTimeMs": 3280,
+                "endTimeMs": 3400,
+                "text": "How"
+              },
+              {
+                "startTimeMs": 3440,
+                "endTimeMs": 3560,
+                "text": "can"
+              },
+              {
+                "startTimeMs": 3560,
+                "endTimeMs": 3600,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 3600,
+                "endTimeMs": 3920,
+                "text": "help?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 5040,
+            "endTimeMs": 5440,
+            "text": "Hi there.",
+            "confidence": 0.936,
+            "words": [
+              {
+                "startTimeMs": 5040,
+                "endTimeMs": 5280,
+                "text": "Hi"
+              },
+              {
+                "startTimeMs": 5280,
+                "endTimeMs": 5440,
+                "text": "there."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 5440,
+            "endTimeMs": 6240,
+            "text": "My name is Mary.",
+            "confidence": 0.936,
+            "words": [
+              {
+                "startTimeMs": 5440,
+                "endTimeMs": 5520,
+                "text": "My"
+              },
+              {
+                "startTimeMs": 5520,
+                "endTimeMs": 5640,
+                "text": "name"
+              },
+              {
+                "startTimeMs": 5640,
+                "endTimeMs": 5720,
+                "text": "is"
+              },
+              {
+                "startTimeMs": 5720,
+                "endTimeMs": 6240,
+                "text": "Mary."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 6240,
+            "endTimeMs": 9280,
+            "text": "I'm currently living in Los Angeles, but I'm planning to move to Las Vegas.",
+            "confidence": 0.936,
+            "words": [
+              {
+                "startTimeMs": 6240,
+                "endTimeMs": 6360,
+                "text": "I'm"
+              },
+              {
+                "startTimeMs": 6400,
+                "endTimeMs": 6720,
+                "text": "currently"
+              },
+              {
+                "startTimeMs": 6720,
+                "endTimeMs": 6960,
+                "text": "living"
+              },
+              {
+                "startTimeMs": 6960,
+                "endTimeMs": 7040,
+                "text": "in"
+              },
+              {
+                "startTimeMs": 7080,
+                "endTimeMs": 7280,
+                "text": "Los"
+              },
+              {
+                "startTimeMs": 7280,
+                "endTimeMs": 7760,
+                "text": "Angeles,"
+              },
+              {
+                "startTimeMs": 7760,
+                "endTimeMs": 7920,
+                "text": "but"
+              },
+              {
+                "startTimeMs": 7920,
+                "endTimeMs": 8000,
+                "text": "I'm"
+              },
+              {
+                "startTimeMs": 8000,
+                "endTimeMs": 8280,
+                "text": "planning"
+              },
+              {
+                "startTimeMs": 8280,
+                "endTimeMs": 8400,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 8400,
+                "endTimeMs": 8600,
+                "text": "move"
+              },
+              {
+                "startTimeMs": 8600,
+                "endTimeMs": 8680,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 8680,
+                "endTimeMs": 8920,
+                "text": "Las"
+              },
+              {
+                "startTimeMs": 8920,
+                "endTimeMs": 9280,
+                "text": "Vegas."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 9280,
+            "endTimeMs": 10560,
+            "text": "I would like to apply for a loan.",
+            "confidence": 0.936,
+            "words": [
+              {
+                "startTimeMs": 9280,
+                "endTimeMs": 9360,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 9360,
+                "endTimeMs": 9480,
+                "text": "would"
+              },
+              {
+                "startTimeMs": 9480,
+                "endTimeMs": 9600,
+                "text": "like"
+              },
+              {
+                "startTimeMs": 9600,
+                "endTimeMs": 9720,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 9720,
+                "endTimeMs": 10000,
+                "text": "apply"
+              },
+              {
+                "startTimeMs": 10000,
+                "endTimeMs": 10200,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 10200,
+                "endTimeMs": 10240,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 10240,
+                "endTimeMs": 10560,
+                "text": "loan."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 12640,
+            "endTimeMs": 12840,
+            "text": "Okay.",
+            "confidence": 0.936,
+            "words": [
+              {
+                "startTimeMs": 12640,
+                "endTimeMs": 12840,
+                "text": "Okay."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 13120,
+            "endTimeMs": 14800,
+            "text": "I see you're currently living in California.",
+            "confidence": 0.936,
+            "words": [
+              {
+                "startTimeMs": 13120,
+                "endTimeMs": 13280,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 13280,
+                "endTimeMs": 13440,
+                "text": "see"
+              },
+              {
+                "startTimeMs": 13440,
+                "endTimeMs": 13560,
+                "text": "you're"
+              },
+              {
+                "startTimeMs": 13560,
+                "endTimeMs": 13880,
+                "text": "currently"
+              },
+              {
+                "startTimeMs": 13880,
+                "endTimeMs": 14080,
+                "text": "living"
+              },
+              {
+                "startTimeMs": 14080,
+                "endTimeMs": 14160,
+                "text": "in"
+              },
+              {
+                "startTimeMs": 14160,
+                "endTimeMs": 14800,
+                "text": "California."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 14800,
+            "endTimeMs": 16640,
+            "text": "Let me make sure I understand you correctly.",
+            "confidence": 0.936,
+            "words": [
+              {
+                "startTimeMs": 14800,
+                "endTimeMs": 14920,
+                "text": "Let"
+              },
+              {
+                "startTimeMs": 14920,
+                "endTimeMs": 15160,
+                "text": "me"
+              },
+              {
+                "startTimeMs": 15160,
+                "endTimeMs": 15360,
+                "text": "make"
+              },
+              {
+                "startTimeMs": 15360,
+                "endTimeMs": 15520,
+                "text": "sure"
+              },
+              {
+                "startTimeMs": 15520,
+                "endTimeMs": 15560,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 15560,
+                "endTimeMs": 16000,
+                "text": "understand"
+              },
+              {
+                "startTimeMs": 16000,
+                "endTimeMs": 16080,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 16080,
+                "endTimeMs": 16640,
+                "text": "correctly."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 17120,
+            "endTimeMs": 19720,
+            "text": "Uh You'd like to apply for a loan even though you'll be moving soon.",
+            "confidence": 0.936,
+            "words": [
+              {
+                "startTimeMs": 17120,
+                "endTimeMs": 17160,
+                "text": "Uh"
+              },
+              {
+                "startTimeMs": 17160,
+                "endTimeMs": 17280,
+                "text": "You'd"
+              },
+              {
+                "startTimeMs": 17280,
+                "endTimeMs": 17440,
+                "text": "like"
+              },
+              {
+                "startTimeMs": 17440,
+                "endTimeMs": 17560,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 17560,
+                "endTimeMs": 17760,
+                "text": "apply"
+              },
+              {
+                "startTimeMs": 17760,
+                "endTimeMs": 17960,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 17960,
+                "endTimeMs": 18000,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 18000,
+                "endTimeMs": 18320,
+                "text": "loan"
+              },
+              {
+                "startTimeMs": 18400,
+                "endTimeMs": 18760,
+                "text": "even"
+              },
+              {
+                "startTimeMs": 18760,
+                "endTimeMs": 18960,
+                "text": "though"
+              },
+              {
+                "startTimeMs": 18960,
+                "endTimeMs": 19120,
+                "text": "you'll"
+              },
+              {
+                "startTimeMs": 19120,
+                "endTimeMs": 19200,
+                "text": "be"
+              },
+              {
+                "startTimeMs": 19200,
+                "endTimeMs": 19520,
+                "text": "moving"
+              },
+              {
+                "startTimeMs": 19520,
+                "endTimeMs": 19720,
+                "text": "soon."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 19720,
+            "endTimeMs": 20200,
+            "text": "Is that right?",
+            "confidence": 0.936,
+            "words": [
+              {
+                "startTimeMs": 19720,
+                "endTimeMs": 19800,
+                "text": "Is"
+              },
+              {
+                "startTimeMs": 19800,
+                "endTimeMs": 19920,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 19920,
+                "endTimeMs": 20200,
+                "text": "right?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 21440,
+            "endTimeMs": 22400,
+            "text": "Yes, exactly.",
+            "confidence": 0.936,
+            "words": [
+              {
+                "startTimeMs": 21440,
+                "endTimeMs": 21760,
+                "text": "Yes,"
+              },
+              {
+                "startTimeMs": 21760,
+                "endTimeMs": 22400,
+                "text": "exactly."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 22560,
+            "endTimeMs": 27280,
+            "text": "So I'm planning to relocate soon, but I would like to apply for the loan first so that I can purchase a new home once I move there.",
+            "confidence": 0.936,
+            "words": [
+              {
+                "startTimeMs": 22560,
+                "endTimeMs": 22680,
+                "text": "So"
+              },
+              {
+                "startTimeMs": 22680,
+                "endTimeMs": 22800,
+                "text": "I'm"
+              },
+              {
+                "startTimeMs": 22800,
+                "endTimeMs": 23040,
+                "text": "planning"
+              },
+              {
+                "startTimeMs": 23040,
+                "endTimeMs": 23120,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 23120,
+                "endTimeMs": 23600,
+                "text": "relocate"
+              },
+              {
+                "startTimeMs": 23600,
+                "endTimeMs": 23800,
+                "text": "soon,"
+              },
+              {
+                "startTimeMs": 23800,
+                "endTimeMs": 23920,
+                "text": "but"
+              },
+              {
+                "startTimeMs": 23920,
+                "endTimeMs": 24000,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 24000,
+                "endTimeMs": 24120,
+                "text": "would"
+              },
+              {
+                "startTimeMs": 24120,
+                "endTimeMs": 24240,
+                "text": "like"
+              },
+              {
+                "startTimeMs": 24240,
+                "endTimeMs": 24360,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 24360,
+                "endTimeMs": 24640,
+                "text": "apply"
+              },
+              {
+                "startTimeMs": 24640,
+                "endTimeMs": 24800,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 24800,
+                "endTimeMs": 24880,
+                "text": "the"
+              },
+              {
+                "startTimeMs": 24880,
+                "endTimeMs": 25160,
+                "text": "loan"
+              },
+              {
+                "startTimeMs": 25160,
+                "endTimeMs": 25360,
+                "text": "first"
+              },
+              {
+                "startTimeMs": 25360,
+                "endTimeMs": 25440,
+                "text": "so"
+              },
+              {
+                "startTimeMs": 25440,
+                "endTimeMs": 25600,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 25600,
+                "endTimeMs": 25680,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 25680,
+                "endTimeMs": 25840,
+                "text": "can"
+              },
+              {
+                "startTimeMs": 25840,
+                "endTimeMs": 26160,
+                "text": "purchase"
+              },
+              {
+                "startTimeMs": 26160,
+                "endTimeMs": 26200,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 26200,
+                "endTimeMs": 26400,
+                "text": "new"
+              },
+              {
+                "startTimeMs": 26400,
+                "endTimeMs": 26640,
+                "text": "home"
+              },
+              {
+                "startTimeMs": 26640,
+                "endTimeMs": 26800,
+                "text": "once"
+              },
+              {
+                "startTimeMs": 26800,
+                "endTimeMs": 26880,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 26920,
+                "endTimeMs": 27080,
+                "text": "move"
+              },
+              {
+                "startTimeMs": 27080,
+                "endTimeMs": 27280,
+                "text": "there."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 28880,
+            "endTimeMs": 30800,
+            "text": "And are you planning to sell your current home?",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 28880,
+                "endTimeMs": 29200,
+                "text": "And"
+              },
+              {
+                "startTimeMs": 29200,
+                "endTimeMs": 29360,
+                "text": "are"
+              },
+              {
+                "startTimeMs": 29360,
+                "endTimeMs": 29440,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 29440,
+                "endTimeMs": 29760,
+                "text": "planning"
+              },
+              {
+                "startTimeMs": 29760,
+                "endTimeMs": 29880,
+                "text": "to"
+              },
+              {
+                "startTimeMs": 29880,
+                "endTimeMs": 30160,
+                "text": "sell"
+              },
+              {
+                "startTimeMs": 30160,
+                "endTimeMs": 30320,
+                "text": "your"
+              },
+              {
+                "startTimeMs": 30320,
+                "endTimeMs": 30640,
+                "text": "current"
+              },
+              {
+                "startTimeMs": 30640,
+                "endTimeMs": 30800,
+                "text": "home?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 32000,
+            "endTimeMs": 35440,
+            "text": "Yes, I will be listing it on the market soon and hopefully it'll sell quickly.",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 32000,
+                "endTimeMs": 32560,
+                "text": "Yes,"
+              },
+              {
+                "startTimeMs": 32800,
+                "endTimeMs": 32880,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 32880,
+                "endTimeMs": 33040,
+                "text": "will"
+              },
+              {
+                "startTimeMs": 33040,
+                "endTimeMs": 33200,
+                "text": "be"
+              },
+              {
+                "startTimeMs": 33200,
+                "endTimeMs": 33440,
+                "text": "listing"
+              },
+              {
+                "startTimeMs": 33440,
+                "endTimeMs": 33520,
+                "text": "it"
+              },
+              {
+                "startTimeMs": 33520,
+                "endTimeMs": 33600,
+                "text": "on"
+              },
+              {
+                "startTimeMs": 33600,
+                "endTimeMs": 33680,
+                "text": "the"
+              },
+              {
+                "startTimeMs": 33680,
+                "endTimeMs": 34000,
+                "text": "market"
+              },
+              {
+                "startTimeMs": 34000,
+                "endTimeMs": 34160,
+                "text": "soon"
+              },
+              {
+                "startTimeMs": 34160,
+                "endTimeMs": 34280,
+                "text": "and"
+              },
+              {
+                "startTimeMs": 34280,
+                "endTimeMs": 34680,
+                "text": "hopefully"
+              },
+              {
+                "startTimeMs": 34680,
+                "endTimeMs": 34840,
+                "text": "it'll"
+              },
+              {
+                "startTimeMs": 34840,
+                "endTimeMs": 34960,
+                "text": "sell"
+              },
+              {
+                "startTimeMs": 34960,
+                "endTimeMs": 35440,
+                "text": "quickly."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 35800,
+            "endTimeMs": 41120,
+            "text": "That's why I'm applying for a loan now, so that I can purchase a new house in Nevada and close on it quickly as well once my current home sells.",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 35800,
+                "endTimeMs": 35960,
+                "text": "That's"
+              },
+              {
+                "startTimeMs": 35960,
+                "endTimeMs": 36040,
+                "text": "why"
+              },
+              {
+                "startTimeMs": 36040,
+                "endTimeMs": 36120,
+                "text": "I'm"
+              },
+              {
+                "startTimeMs": 36120,
+                "endTimeMs": 36400,
+                "text": "applying"
+              },
+              {
+                "startTimeMs": 36400,
+                "endTimeMs": 36560,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 36560,
+                "endTimeMs": 36600,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 36600,
+                "endTimeMs": 36760,
+                "text": "loan"
+              },
+              {
+                "startTimeMs": 36760,
+                "endTimeMs": 36960,
+                "text": "now,"
+              },
+              {
+                "startTimeMs": 36960,
+                "endTimeMs": 37040,
+                "text": "so"
+              },
+              {
+                "startTimeMs": 37040,
+                "endTimeMs": 37160,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 37160,
+                "endTimeMs": 37200,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 37200,
+                "endTimeMs": 37360,
+                "text": "can"
+              },
+              {
+                "startTimeMs": 37360,
+                "endTimeMs": 37680,
+                "text": "purchase"
+              },
+              {
+                "startTimeMs": 37840,
+                "endTimeMs": 37880,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 37880,
+                "endTimeMs": 38000,
+                "text": "new"
+              },
+              {
+                "startTimeMs": 38000,
+                "endTimeMs": 38240,
+                "text": "house"
+              },
+              {
+                "startTimeMs": 38240,
+                "endTimeMs": 38320,
+                "text": "in"
+              },
+              {
+                "startTimeMs": 38320,
+                "endTimeMs": 38760,
+                "text": "Nevada"
+              },
+              {
+                "startTimeMs": 38760,
+                "endTimeMs": 38880,
+                "text": "and"
+              },
+              {
+                "startTimeMs": 38880,
+                "endTimeMs": 39080,
+                "text": "close"
+              },
+              {
+                "startTimeMs": 39080,
+                "endTimeMs": 39160,
+                "text": "on"
+              },
+              {
+                "startTimeMs": 39160,
+                "endTimeMs": 39240,
+                "text": "it"
+              },
+              {
+                "startTimeMs": 39240,
+                "endTimeMs": 39520,
+                "text": "quickly"
+              },
+              {
+                "startTimeMs": 39520,
+                "endTimeMs": 39640,
+                "text": "as"
+              },
+              {
+                "startTimeMs": 39640,
+                "endTimeMs": 39760,
+                "text": "well"
+              },
+              {
+                "startTimeMs": 39880,
+                "endTimeMs": 40080,
+                "text": "once"
+              },
+              {
+                "startTimeMs": 40080,
+                "endTimeMs": 40240,
+                "text": "my"
+              },
+              {
+                "startTimeMs": 40240,
+                "endTimeMs": 40480,
+                "text": "current"
+              },
+              {
+                "startTimeMs": 40480,
+                "endTimeMs": 40640,
+                "text": "home"
+              },
+              {
+                "startTimeMs": 40640,
+                "endTimeMs": 41120,
+                "text": "sells."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 42560,
+            "endTimeMs": 42880,
+            "text": "I see.",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 42560,
+                "endTimeMs": 42720,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 42720,
+                "endTimeMs": 42880,
+                "text": "see."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 43680,
+            "endTimeMs": 46240,
+            "text": "Would you mind holding for a moment while I take your information down?",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 43680,
+                "endTimeMs": 43840,
+                "text": "Would"
+              },
+              {
+                "startTimeMs": 43840,
+                "endTimeMs": 43920,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 43920,
+                "endTimeMs": 44200,
+                "text": "mind"
+              },
+              {
+                "startTimeMs": 44200,
+                "endTimeMs": 44480,
+                "text": "holding"
+              },
+              {
+                "startTimeMs": 44480,
+                "endTimeMs": 44600,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 44600,
+                "endTimeMs": 44640,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 44640,
+                "endTimeMs": 45000,
+                "text": "moment"
+              },
+              {
+                "startTimeMs": 45000,
+                "endTimeMs": 45280,
+                "text": "while"
+              },
+              {
+                "startTimeMs": 45280,
+                "endTimeMs": 45360,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 45360,
+                "endTimeMs": 45520,
+                "text": "take"
+              },
+              {
+                "startTimeMs": 45520,
+                "endTimeMs": 45640,
+                "text": "your"
+              },
+              {
+                "startTimeMs": 45640,
+                "endTimeMs": 46080,
+                "text": "information"
+              },
+              {
+                "startTimeMs": 46080,
+                "endTimeMs": 46240,
+                "text": "down?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 47200,
+            "endTimeMs": 47920,
+            "text": "Yeah, no problem.",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 47200,
+                "endTimeMs": 47440,
+                "text": "Yeah,"
+              },
+              {
+                "startTimeMs": 47440,
+                "endTimeMs": 47600,
+                "text": "no"
+              },
+              {
+                "startTimeMs": 47600,
+                "endTimeMs": 47920,
+                "text": "problem."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 47920,
+            "endTimeMs": 48640,
+            "text": "Thank you for your help.",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 47920,
+                "endTimeMs": 48160,
+                "text": "Thank"
+              },
+              {
+                "startTimeMs": 48160,
+                "endTimeMs": 48240,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 48240,
+                "endTimeMs": 48360,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 48360,
+                "endTimeMs": 48480,
+                "text": "your"
+              },
+              {
+                "startTimeMs": 48480,
+                "endTimeMs": 48640,
+                "text": "help."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 50120,
+            "endTimeMs": 50720,
+            "text": "Mm-hmm.",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 50120,
+                "endTimeMs": 50720,
+                "text": "Mm-hmm."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 50720,
+            "endTimeMs": 51440,
+            "text": "Just one moment.",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 50720,
+                "endTimeMs": 50880,
+                "text": "Just"
+              },
+              {
+                "startTimeMs": 50880,
+                "endTimeMs": 51080,
+                "text": "one"
+              },
+              {
+                "startTimeMs": 51200,
+                "endTimeMs": 51440,
+                "text": "moment."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 58800,
+            "endTimeMs": 59040,
+            "text": "All right.",
+            "confidence": 0.93,
+            "words": [
+              {
+                "startTimeMs": 58800,
+                "endTimeMs": 58880,
+                "text": "All"
+              },
+              {
+                "startTimeMs": 58920,
+                "endTimeMs": 59040,
+                "text": "right."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 59040,
+            "endTimeMs": 60520,
+            "text": "Thank you for your patience, ma'am.",
+            "confidence": 0.93,
+            "words": [
+              {
+                "startTimeMs": 59040,
+                "endTimeMs": 59200,
+                "text": "Thank"
+              },
+              {
+                "startTimeMs": 59200,
+                "endTimeMs": 59280,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 59280,
+                "endTimeMs": 59400,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 59400,
+                "endTimeMs": 59520,
+                "text": "your"
+              },
+              {
+                "startTimeMs": 59520,
+                "endTimeMs": 60200,
+                "text": "patience,"
+              },
+              {
+                "startTimeMs": 60400,
+                "endTimeMs": 60520,
+                "text": "ma'am."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 60520,
+            "endTimeMs": 62640,
+            "text": "May I have your first and last name, please?",
+            "confidence": 0.93,
+            "words": [
+              {
+                "startTimeMs": 60520,
+                "endTimeMs": 60600,
+                "text": "May"
+              },
+              {
+                "startTimeMs": 60680,
+                "endTimeMs": 60720,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 60720,
+                "endTimeMs": 60960,
+                "text": "have"
+              },
+              {
+                "startTimeMs": 60960,
+                "endTimeMs": 61200,
+                "text": "your"
+              },
+              {
+                "startTimeMs": 61200,
+                "endTimeMs": 61640,
+                "text": "first"
+              },
+              {
+                "startTimeMs": 61640,
+                "endTimeMs": 61760,
+                "text": "and"
+              },
+              {
+                "startTimeMs": 61760,
+                "endTimeMs": 62040,
+                "text": "last"
+              },
+              {
+                "startTimeMs": 62040,
+                "endTimeMs": 62200,
+                "text": "name,"
+              },
+              {
+                "startTimeMs": 62200,
+                "endTimeMs": 62640,
+                "text": "please?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 63520,
+            "endTimeMs": 65520,
+            "text": "Yes, my name is Mary Smith.",
+            "confidence": 0.93,
+            "words": [
+              {
+                "startTimeMs": 63520,
+                "endTimeMs": 63920,
+                "text": "Yes,"
+              },
+              {
+                "startTimeMs": 64200,
+                "endTimeMs": 64320,
+                "text": "my"
+              },
+              {
+                "startTimeMs": 64320,
+                "endTimeMs": 64520,
+                "text": "name"
+              },
+              {
+                "startTimeMs": 64520,
+                "endTimeMs": 64640,
+                "text": "is"
+              },
+              {
+                "startTimeMs": 64640,
+                "endTimeMs": 65040,
+                "text": "Mary"
+              },
+              {
+                "startTimeMs": 65040,
+                "endTimeMs": 65520,
+                "text": "Smith."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 67600,
+            "endTimeMs": 68280,
+            "text": "Thank you, Ms.",
+            "confidence": 0.93,
+            "words": [
+              {
+                "startTimeMs": 67600,
+                "endTimeMs": 67920,
+                "text": "Thank"
+              },
+              {
+                "startTimeMs": 67920,
+                "endTimeMs": 68040,
+                "text": "you,"
+              },
+              {
+                "startTimeMs": 68040,
+                "endTimeMs": 68280,
+                "text": "Ms."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 68280,
+            "endTimeMs": 68640,
+            "text": "Smith.",
+            "confidence": 0.93,
+            "words": [
+              {
+                "startTimeMs": 68280,
+                "endTimeMs": 68640,
+                "text": "Smith."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 68960,
+            "endTimeMs": 70400,
+            "text": "May I have your current address, please?",
+            "confidence": 0.93,
+            "words": [
+              {
+                "startTimeMs": 68960,
+                "endTimeMs": 69080,
+                "text": "May"
+              },
+              {
+                "startTimeMs": 69080,
+                "endTimeMs": 69120,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 69120,
+                "endTimeMs": 69360,
+                "text": "have"
+              },
+              {
+                "startTimeMs": 69360,
+                "endTimeMs": 69520,
+                "text": "your"
+              },
+              {
+                "startTimeMs": 69520,
+                "endTimeMs": 69920,
+                "text": "current"
+              },
+              {
+                "startTimeMs": 69920,
+                "endTimeMs": 70160,
+                "text": "address,"
+              },
+              {
+                "startTimeMs": 70160,
+                "endTimeMs": 70400,
+                "text": "please?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 71520,
+            "endTimeMs": 71800,
+            "text": "Yes.",
+            "confidence": 0.93,
+            "words": [
+              {
+                "startTimeMs": 71520,
+                "endTimeMs": 71800,
+                "text": "Yes."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 71800,
+            "endTimeMs": 78640,
+            "text": "So my address is 123 Main Street in Los Angeles, California, and the zip code is 90923.",
+            "confidence": 0.93,
+            "words": [
+              {
+                "startTimeMs": 71800,
+                "endTimeMs": 72000,
+                "text": "So"
+              },
+              {
+                "startTimeMs": 72000,
+                "endTimeMs": 72160,
+                "text": "my"
+              },
+              {
+                "startTimeMs": 72160,
+                "endTimeMs": 72560,
+                "text": "address"
+              },
+              {
+                "startTimeMs": 72560,
+                "endTimeMs": 72800,
+                "text": "is"
+              },
+              {
+                "startTimeMs": 72800,
+                "endTimeMs": 73920,
+                "text": "123"
+              },
+              {
+                "startTimeMs": 73920,
+                "endTimeMs": 74240,
+                "text": "Main"
+              },
+              {
+                "startTimeMs": 74240,
+                "endTimeMs": 74600,
+                "text": "Street"
+              },
+              {
+                "startTimeMs": 74600,
+                "endTimeMs": 74720,
+                "text": "in"
+              },
+              {
+                "startTimeMs": 74720,
+                "endTimeMs": 74920,
+                "text": "Los"
+              },
+              {
+                "startTimeMs": 74960,
+                "endTimeMs": 75360,
+                "text": "Angeles,"
+              },
+              {
+                "startTimeMs": 75360,
+                "endTimeMs": 75960,
+                "text": "California,"
+              },
+              {
+                "startTimeMs": 75960,
+                "endTimeMs": 76080,
+                "text": "and"
+              },
+              {
+                "startTimeMs": 76080,
+                "endTimeMs": 76160,
+                "text": "the"
+              },
+              {
+                "startTimeMs": 76160,
+                "endTimeMs": 76360,
+                "text": "zip"
+              },
+              {
+                "startTimeMs": 76360,
+                "endTimeMs": 76640,
+                "text": "code"
+              },
+              {
+                "startTimeMs": 76640,
+                "endTimeMs": 76960,
+                "text": "is"
+              },
+              {
+                "startTimeMs": 77200,
+                "endTimeMs": 78640,
+                "text": "90923."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 80480,
+            "endTimeMs": 82720,
+            "text": "Sorry, that was a 90 what?",
+            "confidence": 0.93,
+            "words": [
+              {
+                "startTimeMs": 80480,
+                "endTimeMs": 80640,
+                "text": "Sorry,"
+              },
+              {
+                "startTimeMs": 80640,
+                "endTimeMs": 80800,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 80800,
+                "endTimeMs": 80960,
+                "text": "was"
+              },
+              {
+                "startTimeMs": 80960,
+                "endTimeMs": 81040,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 81040,
+                "endTimeMs": 81880,
+                "text": "90"
+              },
+              {
+                "startTimeMs": 82320,
+                "endTimeMs": 82720,
+                "text": "what?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 84160,
+            "endTimeMs": 86160,
+            "text": "90923.",
+            "confidence": 0.93,
+            "words": [
+              {
+                "startTimeMs": 84160,
+                "endTimeMs": 86160,
+                "text": "90923."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 87680,
+            "endTimeMs": 90880,
+            "text": "90923 on Main Street.",
+            "confidence": 0.919,
+            "words": [
+              {
+                "startTimeMs": 87680,
+                "endTimeMs": 89840,
+                "text": "90923"
+              },
+              {
+                "startTimeMs": 90040,
+                "endTimeMs": 90160,
+                "text": "on"
+              },
+              {
+                "startTimeMs": 90160,
+                "endTimeMs": 90400,
+                "text": "Main"
+              },
+              {
+                "startTimeMs": 90400,
+                "endTimeMs": 90880,
+                "text": "Street."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 90880,
+            "endTimeMs": 91200,
+            "text": "Got it.",
+            "confidence": 0.919,
+            "words": [
+              {
+                "startTimeMs": 90880,
+                "endTimeMs": 91080,
+                "text": "Got"
+              },
+              {
+                "startTimeMs": 91080,
+                "endTimeMs": 91200,
+                "text": "it."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 91520,
+            "endTimeMs": 92000,
+            "text": "Thank you.",
+            "confidence": 0.919,
+            "words": [
+              {
+                "startTimeMs": 91520,
+                "endTimeMs": 91760,
+                "text": "Thank"
+              },
+              {
+                "startTimeMs": 91760,
+                "endTimeMs": 92000,
+                "text": "you."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 92240,
+            "endTimeMs": 93680,
+            "text": "May I have your phone number as well, please?",
+            "confidence": 0.919,
+            "words": [
+              {
+                "startTimeMs": 92240,
+                "endTimeMs": 92440,
+                "text": "May"
+              },
+              {
+                "startTimeMs": 92440,
+                "endTimeMs": 92480,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 92480,
+                "endTimeMs": 92640,
+                "text": "have"
+              },
+              {
+                "startTimeMs": 92640,
+                "endTimeMs": 92800,
+                "text": "your"
+              },
+              {
+                "startTimeMs": 92800,
+                "endTimeMs": 93000,
+                "text": "phone"
+              },
+              {
+                "startTimeMs": 93000,
+                "endTimeMs": 93240,
+                "text": "number"
+              },
+              {
+                "startTimeMs": 93240,
+                "endTimeMs": 93320,
+                "text": "as"
+              },
+              {
+                "startTimeMs": 93320,
+                "endTimeMs": 93440,
+                "text": "well,"
+              },
+              {
+                "startTimeMs": 93440,
+                "endTimeMs": 93680,
+                "text": "please?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 93680,
+            "endTimeMs": 93720,
+            "text": "Uh.",
+            "confidence": 0.919,
+            "words": [
+              {
+                "startTimeMs": 93680,
+                "endTimeMs": 93720,
+                "text": "Uh."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 94960,
+            "endTimeMs": 102480,
+            "text": "Yes, my phone number is 504-529-2351 and then yeah.",
+            "confidence": 0.919,
+            "words": [
+              {
+                "startTimeMs": 94960,
+                "endTimeMs": 95200,
+                "text": "Yes,"
+              },
+              {
+                "startTimeMs": 95200,
+                "endTimeMs": 95360,
+                "text": "my"
+              },
+              {
+                "startTimeMs": 95360,
+                "endTimeMs": 95560,
+                "text": "phone"
+              },
+              {
+                "startTimeMs": 95560,
+                "endTimeMs": 95920,
+                "text": "number"
+              },
+              {
+                "startTimeMs": 95920,
+                "endTimeMs": 96320,
+                "text": "is"
+              },
+              {
+                "startTimeMs": 96400,
+                "endTimeMs": 101440,
+                "text": "504-529-2351"
+              },
+              {
+                "startTimeMs": 101760,
+                "endTimeMs": 102120,
+                "text": "and"
+              },
+              {
+                "startTimeMs": 102200,
+                "endTimeMs": 102360,
+                "text": "then"
+              },
+              {
+                "startTimeMs": 102360,
+                "endTimeMs": 102480,
+                "text": "yeah."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 103600,
+            "endTimeMs": 104880,
+            "text": "2351.",
+            "confidence": 0.919,
+            "words": [
+              {
+                "startTimeMs": 103600,
+                "endTimeMs": 104880,
+                "text": "2351."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 106640,
+            "endTimeMs": 106880,
+            "text": "Got it.",
+            "confidence": 0.919,
+            "words": [
+              {
+                "startTimeMs": 106640,
+                "endTimeMs": 106800,
+                "text": "Got"
+              },
+              {
+                "startTimeMs": 106800,
+                "endTimeMs": 106880,
+                "text": "it."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 107520,
+            "endTimeMs": 112480,
+            "text": "And do you have an e-mail address we I can associate with this application?",
+            "confidence": 0.919,
+            "words": [
+              {
+                "startTimeMs": 107520,
+                "endTimeMs": 107880,
+                "text": "And"
+              },
+              {
+                "startTimeMs": 107880,
+                "endTimeMs": 107960,
+                "text": "do"
+              },
+              {
+                "startTimeMs": 108720,
+                "endTimeMs": 108800,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 108800,
+                "endTimeMs": 108960,
+                "text": "have"
+              },
+              {
+                "startTimeMs": 109000,
+                "endTimeMs": 109120,
+                "text": "an"
+              },
+              {
+                "startTimeMs": 109120,
+                "endTimeMs": 109440,
+                "text": "e-mail"
+              },
+              {
+                "startTimeMs": 109440,
+                "endTimeMs": 110080,
+                "text": "address"
+              },
+              {
+                "startTimeMs": 110720,
+                "endTimeMs": 110960,
+                "text": "we"
+              },
+              {
+                "startTimeMs": 111040,
+                "endTimeMs": 111120,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 111120,
+                "endTimeMs": 111280,
+                "text": "can"
+              },
+              {
+                "startTimeMs": 111280,
+                "endTimeMs": 111720,
+                "text": "associate"
+              },
+              {
+                "startTimeMs": 111720,
+                "endTimeMs": 111840,
+                "text": "with"
+              },
+              {
+                "startTimeMs": 111840,
+                "endTimeMs": 111960,
+                "text": "this"
+              },
+              {
+                "startTimeMs": 111960,
+                "endTimeMs": 112480,
+                "text": "application?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 113640,
+            "endTimeMs": 116640,
+            "text": "Uh Yes, so my e-mail address is mary.a.sm78@gmail.com.",
+            "confidence": 0.917,
+            "words": [
+              {
+                "startTimeMs": 113640,
+                "endTimeMs": 113680,
+                "text": "Uh"
+              },
+              {
+                "startTimeMs": 113680,
+                "endTimeMs": 113880,
+                "text": "Yes,"
+              },
+              {
+                "startTimeMs": 113880,
+                "endTimeMs": 114080,
+                "text": "so"
+              },
+              {
+                "startTimeMs": 114080,
+                "endTimeMs": 114240,
+                "text": "my"
+              },
+              {
+                "startTimeMs": 114240,
+                "endTimeMs": 114480,
+                "text": "e-mail"
+              },
+              {
+                "startTimeMs": 114560,
+                "endTimeMs": 114920,
+                "text": "address"
+              },
+              {
+                "startTimeMs": 114920,
+                "endTimeMs": 115120,
+                "text": "is"
+              },
+              {
+                "startTimeMs": 115120,
+                "endTimeMs": 116640,
+                "text": "mary.a.sm78@gmail.com."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 122640,
+            "endTimeMs": 128240,
+            "text": "Mary.a, was that a S-N as in November or M as in Mike?",
+            "confidence": 0.917,
+            "words": [
+              {
+                "startTimeMs": 122640,
+                "endTimeMs": 123240,
+                "text": "Mary.a,"
+              },
+              {
+                "startTimeMs": 124480,
+                "endTimeMs": 124680,
+                "text": "was"
+              },
+              {
+                "startTimeMs": 124680,
+                "endTimeMs": 124880,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 124880,
+                "endTimeMs": 124920,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 125440,
+                "endTimeMs": 126160,
+                "text": "S-N"
+              },
+              {
+                "startTimeMs": 126160,
+                "endTimeMs": 126320,
+                "text": "as"
+              },
+              {
+                "startTimeMs": 126320,
+                "endTimeMs": 126400,
+                "text": "in"
+              },
+              {
+                "startTimeMs": 126400,
+                "endTimeMs": 127120,
+                "text": "November"
+              },
+              {
+                "startTimeMs": 127120,
+                "endTimeMs": 127320,
+                "text": "or"
+              },
+              {
+                "startTimeMs": 127320,
+                "endTimeMs": 127600,
+                "text": "M"
+              },
+              {
+                "startTimeMs": 127600,
+                "endTimeMs": 127680,
+                "text": "as"
+              },
+              {
+                "startTimeMs": 127680,
+                "endTimeMs": 127840,
+                "text": "in"
+              },
+              {
+                "startTimeMs": 127840,
+                "endTimeMs": 128240,
+                "text": "Mike?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 129520,
+            "endTimeMs": 130320,
+            "text": "M as in Mike.",
+            "confidence": 0.917,
+            "words": [
+              {
+                "startTimeMs": 129520,
+                "endTimeMs": 129680,
+                "text": "M"
+              },
+              {
+                "startTimeMs": 129680,
+                "endTimeMs": 129840,
+                "text": "as"
+              },
+              {
+                "startTimeMs": 129840,
+                "endTimeMs": 129960,
+                "text": "in"
+              },
+              {
+                "startTimeMs": 129960,
+                "endTimeMs": 130320,
+                "text": "Mike."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 131520,
+            "endTimeMs": 134560,
+            "text": "Mike78, got it.",
+            "confidence": 0.917,
+            "words": [
+              {
+                "startTimeMs": 131520,
+                "endTimeMs": 132800,
+                "text": "Mike78,"
+              },
+              {
+                "startTimeMs": 133280,
+                "endTimeMs": 133680,
+                "text": "got"
+              },
+              {
+                "startTimeMs": 134320,
+                "endTimeMs": 134560,
+                "text": "it."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 134560,
+            "endTimeMs": 135120,
+            "text": "Thank you.",
+            "confidence": 0.917,
+            "words": [
+              {
+                "startTimeMs": 134560,
+                "endTimeMs": 134800,
+                "text": "Thank"
+              },
+              {
+                "startTimeMs": 134800,
+                "endTimeMs": 135120,
+                "text": "you."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 135160,
+            "endTimeMs": 135320,
+            "text": "Ms.",
+            "confidence": 0.917,
+            "words": [
+              {
+                "startTimeMs": 135160,
+                "endTimeMs": 135320,
+                "text": "Ms."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 135320,
+            "endTimeMs": 137920,
+            "text": "Smith, do you currently have any other loans?",
+            "confidence": 0.917,
+            "words": [
+              {
+                "startTimeMs": 135320,
+                "endTimeMs": 135680,
+                "text": "Smith,"
+              },
+              {
+                "startTimeMs": 136160,
+                "endTimeMs": 136240,
+                "text": "do"
+              },
+              {
+                "startTimeMs": 136240,
+                "endTimeMs": 136320,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 136320,
+                "endTimeMs": 136720,
+                "text": "currently"
+              },
+              {
+                "startTimeMs": 136720,
+                "endTimeMs": 136960,
+                "text": "have"
+              },
+              {
+                "startTimeMs": 137000,
+                "endTimeMs": 137200,
+                "text": "any"
+              },
+              {
+                "startTimeMs": 137200,
+                "endTimeMs": 137440,
+                "text": "other"
+              },
+              {
+                "startTimeMs": 137440,
+                "endTimeMs": 137920,
+                "text": "loans?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 139520,
+            "endTimeMs": 142240,
+            "text": "Uh Yes, so I currently have two other loans through Contoso.",
+            "confidence": 0.917,
+            "words": [
+              {
+                "startTimeMs": 139520,
+                "endTimeMs": 139560,
+                "text": "Uh"
+              },
+              {
+                "startTimeMs": 139560,
+                "endTimeMs": 139720,
+                "text": "Yes,"
+              },
+              {
+                "startTimeMs": 139720,
+                "endTimeMs": 139920,
+                "text": "so"
+              },
+              {
+                "startTimeMs": 139920,
+                "endTimeMs": 140000,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 140000,
+                "endTimeMs": 140400,
+                "text": "currently"
+              },
+              {
+                "startTimeMs": 140400,
+                "endTimeMs": 140720,
+                "text": "have"
+              },
+              {
+                "startTimeMs": 140720,
+                "endTimeMs": 140960,
+                "text": "two"
+              },
+              {
+                "startTimeMs": 140960,
+                "endTimeMs": 141120,
+                "text": "other"
+              },
+              {
+                "startTimeMs": 141120,
+                "endTimeMs": 141440,
+                "text": "loans"
+              },
+              {
+                "startTimeMs": 141440,
+                "endTimeMs": 141600,
+                "text": "through"
+              },
+              {
+                "startTimeMs": 141600,
+                "endTimeMs": 142240,
+                "text": "Contoso."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 142720,
+            "endTimeMs": 145840,
+            "text": "So my first one is my car loan and then my other is my student loan.",
+            "confidence": 0.924,
+            "words": [
+              {
+                "startTimeMs": 142720,
+                "endTimeMs": 142800,
+                "text": "So"
+              },
+              {
+                "startTimeMs": 142800,
+                "endTimeMs": 142880,
+                "text": "my"
+              },
+              {
+                "startTimeMs": 142880,
+                "endTimeMs": 143080,
+                "text": "first"
+              },
+              {
+                "startTimeMs": 143080,
+                "endTimeMs": 143240,
+                "text": "one"
+              },
+              {
+                "startTimeMs": 143240,
+                "endTimeMs": 143320,
+                "text": "is"
+              },
+              {
+                "startTimeMs": 143320,
+                "endTimeMs": 143440,
+                "text": "my"
+              },
+              {
+                "startTimeMs": 143440,
+                "endTimeMs": 143760,
+                "text": "car"
+              },
+              {
+                "startTimeMs": 143760,
+                "endTimeMs": 143920,
+                "text": "loan"
+              },
+              {
+                "startTimeMs": 143920,
+                "endTimeMs": 144040,
+                "text": "and"
+              },
+              {
+                "startTimeMs": 144040,
+                "endTimeMs": 144160,
+                "text": "then"
+              },
+              {
+                "startTimeMs": 144160,
+                "endTimeMs": 144320,
+                "text": "my"
+              },
+              {
+                "startTimeMs": 144320,
+                "endTimeMs": 144640,
+                "text": "other"
+              },
+              {
+                "startTimeMs": 144640,
+                "endTimeMs": 144800,
+                "text": "is"
+              },
+              {
+                "startTimeMs": 144800,
+                "endTimeMs": 144960,
+                "text": "my"
+              },
+              {
+                "startTimeMs": 144960,
+                "endTimeMs": 145440,
+                "text": "student"
+              },
+              {
+                "startTimeMs": 145440,
+                "endTimeMs": 145840,
+                "text": "loan."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 146080,
+            "endTimeMs": 150680,
+            "text": "They total about 1400 per month combined and my interest rate is 8%.",
+            "confidence": 0.924,
+            "words": [
+              {
+                "startTimeMs": 146080,
+                "endTimeMs": 146240,
+                "text": "They"
+              },
+              {
+                "startTimeMs": 146240,
+                "endTimeMs": 146600,
+                "text": "total"
+              },
+              {
+                "startTimeMs": 146600,
+                "endTimeMs": 146960,
+                "text": "about"
+              },
+              {
+                "startTimeMs": 146960,
+                "endTimeMs": 147760,
+                "text": "1400"
+              },
+              {
+                "startTimeMs": 147760,
+                "endTimeMs": 147920,
+                "text": "per"
+              },
+              {
+                "startTimeMs": 147920,
+                "endTimeMs": 148200,
+                "text": "month"
+              },
+              {
+                "startTimeMs": 148200,
+                "endTimeMs": 148880,
+                "text": "combined"
+              },
+              {
+                "startTimeMs": 149200,
+                "endTimeMs": 149360,
+                "text": "and"
+              },
+              {
+                "startTimeMs": 149360,
+                "endTimeMs": 149520,
+                "text": "my"
+              },
+              {
+                "startTimeMs": 149520,
+                "endTimeMs": 149920,
+                "text": "interest"
+              },
+              {
+                "startTimeMs": 149920,
+                "endTimeMs": 150080,
+                "text": "rate"
+              },
+              {
+                "startTimeMs": 150080,
+                "endTimeMs": 150400,
+                "text": "is"
+              },
+              {
+                "startTimeMs": 150640,
+                "endTimeMs": 150680,
+                "text": "8%."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 150680,
+            "endTimeMs": 150840,
+            "text": "I see.",
+            "confidence": 0.924,
+            "words": [
+              {
+                "startTimeMs": 150680,
+                "endTimeMs": 150720,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 150720,
+                "endTimeMs": 150840,
+                "text": "see."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 150840,
+            "endTimeMs": 151040,
+            "text": "And.",
+            "confidence": 0.924,
+            "words": [
+              {
+                "startTimeMs": 150840,
+                "endTimeMs": 151040,
+                "text": "And."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 152960,
+            "endTimeMs": 155360,
+            "text": "You're currently paying those loans off monthly, is that right?",
+            "confidence": 0.924,
+            "words": [
+              {
+                "startTimeMs": 152960,
+                "endTimeMs": 153120,
+                "text": "You're"
+              },
+              {
+                "startTimeMs": 153120,
+                "endTimeMs": 153520,
+                "text": "currently"
+              },
+              {
+                "startTimeMs": 153520,
+                "endTimeMs": 153840,
+                "text": "paying"
+              },
+              {
+                "startTimeMs": 153840,
+                "endTimeMs": 154080,
+                "text": "those"
+              },
+              {
+                "startTimeMs": 154080,
+                "endTimeMs": 154400,
+                "text": "loans"
+              },
+              {
+                "startTimeMs": 154400,
+                "endTimeMs": 154560,
+                "text": "off"
+              },
+              {
+                "startTimeMs": 154560,
+                "endTimeMs": 154840,
+                "text": "monthly,"
+              },
+              {
+                "startTimeMs": 154840,
+                "endTimeMs": 154960,
+                "text": "is"
+              },
+              {
+                "startTimeMs": 154960,
+                "endTimeMs": 155080,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 155080,
+                "endTimeMs": 155360,
+                "text": "right?"
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 156400,
+            "endTimeMs": 157200,
+            "text": "Yes, of course I do.",
+            "confidence": 0.924,
+            "words": [
+              {
+                "startTimeMs": 156400,
+                "endTimeMs": 156640,
+                "text": "Yes,"
+              },
+              {
+                "startTimeMs": 156640,
+                "endTimeMs": 156720,
+                "text": "of"
+              },
+              {
+                "startTimeMs": 156720,
+                "endTimeMs": 156960,
+                "text": "course"
+              },
+              {
+                "startTimeMs": 156960,
+                "endTimeMs": 157000,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 157000,
+                "endTimeMs": 157200,
+                "text": "do."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 159280,
+            "endTimeMs": 160000,
+            "text": "OK, thank you.",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 159280,
+                "endTimeMs": 159480,
+                "text": "OK,"
+              },
+              {
+                "startTimeMs": 159520,
+                "endTimeMs": 159760,
+                "text": "thank"
+              },
+              {
+                "startTimeMs": 159760,
+                "endTimeMs": 160000,
+                "text": "you."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 160400,
+            "endTimeMs": 161520,
+            "text": "Here's what I suggest we do.",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 160400,
+                "endTimeMs": 160680,
+                "text": "Here's"
+              },
+              {
+                "startTimeMs": 160680,
+                "endTimeMs": 160840,
+                "text": "what"
+              },
+              {
+                "startTimeMs": 160840,
+                "endTimeMs": 160880,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 160880,
+                "endTimeMs": 161240,
+                "text": "suggest"
+              },
+              {
+                "startTimeMs": 161240,
+                "endTimeMs": 161360,
+                "text": "we"
+              },
+              {
+                "startTimeMs": 161360,
+                "endTimeMs": 161520,
+                "text": "do."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 161520,
+            "endTimeMs": 167600,
+            "text": "Let me place you on a brief hold again so that I can talk with one of our loan officers and get this started for you immediately.",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 161520,
+                "endTimeMs": 161640,
+                "text": "Let"
+              },
+              {
+                "startTimeMs": 162000,
+                "endTimeMs": 162200,
+                "text": "me"
+              },
+              {
+                "startTimeMs": 162200,
+                "endTimeMs": 162360,
+                "text": "place"
+              },
+              {
+                "startTimeMs": 162360,
+                "endTimeMs": 162440,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 162440,
+                "endTimeMs": 162560,
+                "text": "on"
+              },
+              {
+                "startTimeMs": 162560,
+                "endTimeMs": 162600,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 162600,
+                "endTimeMs": 162840,
+                "text": "brief"
+              },
+              {
+                "startTimeMs": 162840,
+                "endTimeMs": 163000,
+                "text": "hold"
+              },
+              {
+                "startTimeMs": 163000,
+                "endTimeMs": 163280,
+                "text": "again"
+              },
+              {
+                "startTimeMs": 163280,
+                "endTimeMs": 163360,
+                "text": "so"
+              },
+              {
+                "startTimeMs": 163360,
+                "endTimeMs": 163480,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 163480,
+                "endTimeMs": 163520,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 163520,
+                "endTimeMs": 163680,
+                "text": "can"
+              },
+              {
+                "startTimeMs": 163680,
+                "endTimeMs": 163880,
+                "text": "talk"
+              },
+              {
+                "startTimeMs": 163880,
+                "endTimeMs": 164000,
+                "text": "with"
+              },
+              {
+                "startTimeMs": 164000,
+                "endTimeMs": 164160,
+                "text": "one"
+              },
+              {
+                "startTimeMs": 164160,
+                "endTimeMs": 164240,
+                "text": "of"
+              },
+              {
+                "startTimeMs": 164240,
+                "endTimeMs": 164320,
+                "text": "our"
+              },
+              {
+                "startTimeMs": 164320,
+                "endTimeMs": 164880,
+                "text": "loan"
+              },
+              {
+                "startTimeMs": 164880,
+                "endTimeMs": 165440,
+                "text": "officers"
+              },
+              {
+                "startTimeMs": 165920,
+                "endTimeMs": 166240,
+                "text": "and"
+              },
+              {
+                "startTimeMs": 166240,
+                "endTimeMs": 166400,
+                "text": "get"
+              },
+              {
+                "startTimeMs": 166400,
+                "endTimeMs": 166520,
+                "text": "this"
+              },
+              {
+                "startTimeMs": 166520,
+                "endTimeMs": 166800,
+                "text": "started"
+              },
+              {
+                "startTimeMs": 166800,
+                "endTimeMs": 166920,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 166920,
+                "endTimeMs": 167000,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 167000,
+                "endTimeMs": 167600,
+                "text": "immediately."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 168000,
+            "endTimeMs": 177360,
+            "text": "In the meantime, it would be great if you could take a few minutes and complete the remainder of the secure application online at www.contosoloans.com.",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 168000,
+                "endTimeMs": 168120,
+                "text": "In"
+              },
+              {
+                "startTimeMs": 168120,
+                "endTimeMs": 168200,
+                "text": "the"
+              },
+              {
+                "startTimeMs": 168200,
+                "endTimeMs": 168880,
+                "text": "meantime,"
+              },
+              {
+                "startTimeMs": 169120,
+                "endTimeMs": 169200,
+                "text": "it"
+              },
+              {
+                "startTimeMs": 169200,
+                "endTimeMs": 169360,
+                "text": "would"
+              },
+              {
+                "startTimeMs": 169360,
+                "endTimeMs": 169440,
+                "text": "be"
+              },
+              {
+                "startTimeMs": 169440,
+                "endTimeMs": 169600,
+                "text": "great"
+              },
+              {
+                "startTimeMs": 169600,
+                "endTimeMs": 169680,
+                "text": "if"
+              },
+              {
+                "startTimeMs": 169680,
+                "endTimeMs": 169760,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 169760,
+                "endTimeMs": 169880,
+                "text": "could"
+              },
+              {
+                "startTimeMs": 169880,
+                "endTimeMs": 170080,
+                "text": "take"
+              },
+              {
+                "startTimeMs": 170080,
+                "endTimeMs": 170120,
+                "text": "a"
+              },
+              {
+                "startTimeMs": 170400,
+                "endTimeMs": 170520,
+                "text": "few"
+              },
+              {
+                "startTimeMs": 170520,
+                "endTimeMs": 170920,
+                "text": "minutes"
+              },
+              {
+                "startTimeMs": 171280,
+                "endTimeMs": 171440,
+                "text": "and"
+              },
+              {
+                "startTimeMs": 171440,
+                "endTimeMs": 172000,
+                "text": "complete"
+              },
+              {
+                "startTimeMs": 172000,
+                "endTimeMs": 172120,
+                "text": "the"
+              },
+              {
+                "startTimeMs": 172240,
+                "endTimeMs": 172600,
+                "text": "remainder"
+              },
+              {
+                "startTimeMs": 172600,
+                "endTimeMs": 172680,
+                "text": "of"
+              },
+              {
+                "startTimeMs": 172680,
+                "endTimeMs": 172760,
+                "text": "the"
+              },
+              {
+                "startTimeMs": 172760,
+                "endTimeMs": 173040,
+                "text": "secure"
+              },
+              {
+                "startTimeMs": 173040,
+                "endTimeMs": 173600,
+                "text": "application"
+              },
+              {
+                "startTimeMs": 173600,
+                "endTimeMs": 174080,
+                "text": "online"
+              },
+              {
+                "startTimeMs": 174080,
+                "endTimeMs": 174400,
+                "text": "at"
+              },
+              {
+                "startTimeMs": 174480,
+                "endTimeMs": 177360,
+                "text": "www.contosoloans.com."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 178400,
+            "endTimeMs": 179240,
+            "text": "Yeah, that sounds good.",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 178400,
+                "endTimeMs": 178520,
+                "text": "Yeah,"
+              },
+              {
+                "startTimeMs": 178520,
+                "endTimeMs": 178640,
+                "text": "that"
+              },
+              {
+                "startTimeMs": 178800,
+                "endTimeMs": 179080,
+                "text": "sounds"
+              },
+              {
+                "startTimeMs": 179080,
+                "endTimeMs": 179240,
+                "text": "good."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 179240,
+            "endTimeMs": 180240,
+            "text": "I can go ahead and get started.",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 179240,
+                "endTimeMs": 179280,
+                "text": "I"
+              },
+              {
+                "startTimeMs": 179280,
+                "endTimeMs": 179400,
+                "text": "can"
+              },
+              {
+                "startTimeMs": 179400,
+                "endTimeMs": 179520,
+                "text": "go"
+              },
+              {
+                "startTimeMs": 179520,
+                "endTimeMs": 179680,
+                "text": "ahead"
+              },
+              {
+                "startTimeMs": 179680,
+                "endTimeMs": 179800,
+                "text": "and"
+              },
+              {
+                "startTimeMs": 179800,
+                "endTimeMs": 179920,
+                "text": "get"
+              },
+              {
+                "startTimeMs": 179920,
+                "endTimeMs": 180240,
+                "text": "started."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Customer",
+            "startTimeMs": 180320,
+            "endTimeMs": 181000,
+            "text": "Thank you for your help.",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 180320,
+                "endTimeMs": 180480,
+                "text": "Thank"
+              },
+              {
+                "startTimeMs": 180480,
+                "endTimeMs": 180560,
+                "text": "you"
+              },
+              {
+                "startTimeMs": 180560,
+                "endTimeMs": 180680,
+                "text": "for"
+              },
+              {
+                "startTimeMs": 180680,
+                "endTimeMs": 180800,
+                "text": "your"
+              },
+              {
+                "startTimeMs": 180800,
+                "endTimeMs": 181000,
+                "text": "help."
+              }
+            ],
+            "locale": "en-US"
+          },
+          {
+            "speaker": "Agent",
+            "startTimeMs": 181960,
+            "endTimeMs": 182240,
+            "text": "Thank you.",
+            "confidence": 0.931,
+            "words": [
+              {
+                "startTimeMs": 181960,
+                "endTimeMs": 182160,
+                "text": "Thank"
+              },
+              {
+                "startTimeMs": 182160,
+                "endTimeMs": 182240,
+                "text": "you."
+              }
+            ],
+            "locale": "en-US"
+          }
+        ]
+      }
+    ]
+  }
+}

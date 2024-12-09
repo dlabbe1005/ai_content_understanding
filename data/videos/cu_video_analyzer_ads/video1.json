@@ -1,0 +1,558 @@
+{
+  "id": "f4d73576-b13e-4537-8f16-3c6b056df40b",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "cu_video_analyzer_ads",
+    "apiVersion": "2024-12-01-preview",
+    "createdAt": "2024-12-09T17:58:25Z",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "# Shot 0:0.0 => 0:1.42\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:0.0 ![](keyFrame.0.jpg)\n- 0:1.0 ![](keyFrame.1000.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The segment features close-up shots of a Coca-Cola bottle being opened, with condensation and ice crystals on a red surface. The lighting highlights the refreshing and cold nature of the beverage, using a predominantly red and white color palette."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 0,
+        "endTimeMs": 1042,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:1.42 => 0:2.417\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:1.42 ![](keyFrame.1042.jpg)\n- 0:2.42 ![](keyFrame.2042.jpg)",
+        "fields": {
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "A breathtaking sunrise over a snowy mountain range is depicted, showcasing the beauty of nature with a warm color palette of oranges and blues. The scene evokes a sense of tranquility and wonder."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 1042,
+        "endTimeMs": 2417,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:2.417 => 0:4.42\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:2.417 ![](keyFrame.2417.jpg)\n- 0:3.417 ![](keyFrame.3417.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The segment transitions to a serene landscape of icy terrain with the sun setting on the horizon. The lighting and gentle colors emphasize the peaceful and expansive nature of the scene."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 2417,
+        "endTimeMs": 4042,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:4.42 => 0:5.292\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:4.42 ![](keyFrame.4042.jpg)\n- 0:5.42 ![](keyFrame.5042.jpg)",
+        "fields": {
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "A majestic reindeer is shown against a snowy backdrop, with snowflakes gently falling. The scene uses cool colors and natural lighting to create a magical, wintery atmosphere."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 4042,
+        "endTimeMs": 5292,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:5.292 => 0:7.458\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:5.292 ![](keyFrame.5292.jpg)\n- 0:6.292 ![](keyFrame.6292.jpg)\n- 0:7.292 ![](keyFrame.7292.jpg)",
+        "fields": {
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "This segment features a polar bear in icy water, with an aurora borealis in the background. The lighting showcases the bear's fur texture, while the colors of the aurora add a mystical touch to the scene."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 5292,
+        "endTimeMs": 7458,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:7.458 => 0:8.875\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:7.458 ![](keyFrame.7458.jpg)\n- 0:8.458 ![](keyFrame.8458.jpg)",
+        "fields": {
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "A Coca-Cola truck covered in snow is depicted, with bright, festive lights in the background. The red truck and white snow create a classic holiday color scheme."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 7458,
+        "endTimeMs": 8875,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:8.875 => 0:10.458\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:8.875 ![](keyFrame.8875.jpg)\n- 0:9.875 ![](keyFrame.9875.jpg)",
+        "fields": {
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "Multiple Coca-Cola trucks are shown driving through a snowy village, with a large, decorated Christmas tree. The scene is vibrant with bright red, white, and multicolored lights, evoking holiday cheer."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 8875,
+        "endTimeMs": 10458,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:10.458 => 0:11.583\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:10.458 ![](keyFrame.10458.jpg)\n- 0:11.458 ![](keyFrame.11458.jpg)",
+        "fields": {
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "Coca-Cola trucks drive through a snowy forest at dusk. The glowing lights from the trucks contrast with the darkening sky, creating a warm and inviting atmosphere."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 10458,
+        "endTimeMs": 11583,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:11.583 => 0:13.167\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:11.583 ![](keyFrame.11583.jpg)\n- 0:12.583 ![](keyFrame.12583.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "A Coca-Cola truck is seen driving through a tunnel of festive lights. The scene is dynamic and colorful, with bright, shimmering lights creating a sense of celebration and excitement."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 11583,
+        "endTimeMs": 13167,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:13.167 => 0:14.375\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:13.167 ![](keyFrame.13167.jpg)\n- 0:14.167 ![](keyFrame.14167.jpg)",
+        "fields": {
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "A golden retriever stands in a snowy landscape with a warmly lit house in the background. The scene captures a cozy, festive atmosphere with string lights illuminating the house."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 13167,
+        "endTimeMs": 14375,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:14.375 => 0:15.708\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:14.375 ![](keyFrame.14375.jpg)\n- 0:15.375 ![](keyFrame.15375.jpg)",
+        "fields": {
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "Two Coca-Cola trucks, adorned with festive lights, drive through a snow-covered village. The illuminated trucks create a cheerful and holiday-themed scene."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 14375,
+        "endTimeMs": 15708,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:15.708 => 0:17.0\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:15.708 ![](keyFrame.15708.jpg)\n- 0:16.708 ![](keyFrame.16708.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "Coca-Cola trucks continue their journey through a picturesque snowy setting, with houses decorated in Christmas lights. The scene emphasizes the festive spirit and the brand's iconic holiday imagery."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 15708,
+        "endTimeMs": 17000,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:17.0 => 0:18.0\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:17.0 ![](keyFrame.17000.jpg)",
+        "fields": {
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "A beautifully lit Christmas tree with a glowing star on top is showcased, enhancing the festive and magical atmosphere of the scene."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 17000,
+        "endTimeMs": 18000,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:18.0 => 0:19.582\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:18.0 ![](keyFrame.18000.jpg)\n- 0:19.0 ![](keyFrame.19000.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "A satellite orbits Earth with a bright light shining in the background. The scene shifts from a festive holiday theme to a broader, global perspective."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 18000,
+        "endTimeMs": 19583,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:19.582 => 0:21.292\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:19.583 ![](keyFrame.19583.jpg)\n- 0:20.583 ![](keyFrame.20583.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "Polar bears, dressed in festive attire, watch a TV. The cozy, snowy cave setting and the presence of Coca-Cola bottles reinforce the brand's holiday-themed marketing."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 19583,
+        "endTimeMs": 21292,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:21.292 => 0:22.207\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:21.292 ![](keyFrame.21292.jpg)",
+        "fields": {
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "A Coca-Cola truck drives through a snow-covered landscape with traditional buildings in the background. The festive decorations and lights highlight a holiday theme."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 21292,
+        "endTimeMs": 22208,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:22.207 => 0:23.250\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:22.208 ![](keyFrame.22208.jpg)\n- 0:23.208 ![](keyFrame.23208.jpg)",
+        "fields": {
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "A Coca-Cola truck navigates a winding road, illuminated by festive lights, against a backdrop of a city at dusk. The scene captures a serene and festive mood."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 22208,
+        "endTimeMs": 23250,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:23.250 => 0:23.957\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:23.250 ![](keyFrame.23250.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "Aerial view of Coca-Cola trucks crossing a bridge, lit by rows of lights. The ocean beneath adds a dramatic and expansive feel to the scene."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 23250,
+        "endTimeMs": 23958,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:23.957 => 0:25.42\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:23.958 ![](keyFrame.23958.jpg)\n- 0:24.958 ![](keyFrame.24958.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "Coca-Cola trucks drive through a bustling city, decorated with holiday lights. The urban setting contributes to the festive and lively atmosphere."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 23958,
+        "endTimeMs": 25042,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:25.42 => 0:26.375\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:25.42 ![](keyFrame.25042.jpg)\n- 0:26.42 ![](keyFrame.26042.jpg)",
+        "fields": {
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "Coca-Cola trucks continue through a snowy village, surrounded by warmly lit houses. The scene emphasizes the joyful and festive spirit of the holiday season."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 25042,
+        "endTimeMs": 26375,
+        "width": 854,
+        "height": 480
+      },
+      {
+        "markdown": "# Shot 0:26.375 => 0:30.0\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:26.375 ![](keyFrame.26375.jpg)\n- 0:27.375 ![](keyFrame.27375.jpg)\n- 0:28.375 ![](keyFrame.28375.jpg)\n- 0:29.375 ![](keyFrame.29375.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The segment opens with a festive scene of a red sleigh flying through the sky, leaving a trail of glowing golden lights behind it, creating a magical atmosphere. The sky is a deep blue, filled with fluffy clouds. As the sleigh progresses, the iconic Coca-Cola logo emerges from the trail of lights, accompanied by the slogan 'Real Magic.' The visual effects emphasize a sense of wonder and enchantment, with a focus on the brand's holiday spirit."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 26375,
+        "endTimeMs": 30000,
+        "width": 854,
+        "height": 480
+      }
+    ]
+  }
+}

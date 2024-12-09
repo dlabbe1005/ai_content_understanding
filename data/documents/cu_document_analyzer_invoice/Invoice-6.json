@@ -1,0 +1,1870 @@
+{
+  "id": "00a38d4c-ad87-4a13-8059-f04fd059ce2f",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "cu_document_analyzer_invoice",
+    "apiVersion": "2024-12-01-preview",
+    "createdAt": "2024-12-09T18:21:19Z",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "Contoso, Ltd.\n\n\n# Project Statement\n\nDate: 9/10/2020\n\nReceipt # No .: 9876\n\nSold To Wingtip Toys\n\n554 Magnolia Way\n\nWalnut, WY, 98432\n\nID#: 5554443\n\nLive Delivery:\n\u2612\nOnline Delivery (Livestream):\n\u2612\n\nVideo Delivery (On Demand):\n\n\u2610\n\n\n<table>\n<tr>\n<th>Training Date</th>\n<th>Description</th>\n<th>Price</th>\n<th>Discount</th>\n<th>Line Total</th>\n</tr>\n<tr>\n<td>12/5/2020</td>\n<td>Manager Training</td>\n<td>$3,500</td>\n<td>-</td>\n<td>$3,500</td>\n</tr>\n<tr>\n<td>12/10/2020</td>\n<td>Manager Training</td>\n<td>$3,500</td>\n<td>-</td>\n<td>$3,500</td>\n</tr>\n<tr>\n<td>12/11/2020</td>\n<td rowspan=\"2\">Leadership Training</td>\n<td rowspan=\"2\">$4,500</td>\n<td rowspan=\"2\">25%</td>\n<td rowspan=\"2\">$3,375</td>\n</tr>\n<tr>\n<td></td>\n</tr>\n</table>\n\n\n<table>\n<tr>\n<td>Subtotal</td>\n<td>$10,375</td>\n</tr>\n<tr>\n<td>Sales Tax</td>\n<td>3%</td>\n</tr>\n<tr>\n<td>Total</td>\n<td>$10,686.25</td>\n</tr>\n</table>\n\n\nThank you for your business!\n",
+        "fields": {
+          "VendorName": {
+            "type": "string",
+            "valueString": "Contoso, Ltd.",
+            "spans": [
+              {
+                "offset": 0,
+                "length": 13
+              }
+            ],
+            "confidence": 0.96,
+            "source": "D(1,0.5661,0.421,2.363,0.421,2.363,0.8083,0.5661,0.8083)"
+          },
+          "Items": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "object",
+                "valueObject": {
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Manager Training",
+                    "spans": [
+                      {
+                        "offset": 376,
+                        "length": 16
+                      }
+                    ],
+                    "confidence": 0.972,
+                    "source": "D(1,2.5263,4.5041,3.4753,4.5041,3.4753,4.6435,2.5263,4.6435)"
+                  },
+                  "Amount": {
+                    "type": "number",
+                    "valueNumber": 3500,
+                    "spans": [
+                      {
+                        "offset": 402,
+                        "length": 6
+                      }
+                    ],
+                    "confidence": 0.123,
+                    "source": "D(1,4.6947,4.5046,5.0469,4.5046,5.0469,4.6304,4.6947,4.6304)"
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Manager Training",
+                    "spans": [
+                      {
+                        "offset": 376,
+                        "length": 16
+                      }
+                    ],
+                    "confidence": 0.975,
+                    "source": "D(1,2.5263,4.5041,3.4753,4.5041,3.4753,4.6435,2.5263,4.6435)"
+                  },
+                  "Amount": {
+                    "type": "number",
+                    "valueNumber": 3500,
+                    "spans": [
+                      {
+                        "offset": 402,
+                        "length": 6
+                      }
+                    ],
+                    "confidence": 0.336,
+                    "source": "D(1,4.6947,4.5046,5.0469,4.5046,5.0469,4.6304,4.6947,4.6304)"
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "valueObject": {
+                  "Description": {
+                    "type": "string",
+                    "valueString": "Leadership Training",
+                    "spans": [
+                      {
+                        "offset": 588,
+                        "length": 19
+                      }
+                    ],
+                    "confidence": 0.986,
+                    "source": "D(1,2.4775,4.933,3.5251,4.933,3.5251,5.0765,2.4775,5.0765)"
+                  },
+                  "Amount": {
+                    "type": "number",
+                    "valueNumber": 3375,
+                    "spans": [
+                      {
+                        "offset": 682,
+                        "length": 6
+                      }
+                    ],
+                    "confidence": 0.895,
+                    "source": "D(1,7.1888,4.935,7.5426,4.935,7.5426,5.0654,7.1888,5.0654)"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "kind": "document",
+        "startPageNumber": 1,
+        "endPageNumber": 1,
+        "unit": "inch",
+        "pages": [
+          {
+            "pageNumber": 1,
+            "angle": 0.09532508,
+            "width": 8.5,
+            "height": 11,
+            "spans": [
+              {
+                "offset": 0,
+                "length": 914
+              }
+            ],
+            "words": [
+              {
+                "content": "Contoso,",
+                "span": {
+                  "offset": 0,
+                  "length": 8
+                },
+                "confidence": 0.993,
+                "source": "D(1,0.5664,0.4243,1.7068,0.4233,1.7067,0.8083,0.5661,0.8042)"
+              },
+              {
+                "content": "Ltd.",
+                "span": {
+                  "offset": 9,
+                  "length": 4
+                },
+                "confidence": 0.989,
+                "source": "D(1,1.7828,0.4231,2.363,0.421,2.363,0.8083,1.7826,0.8083)"
+              },
+              {
+                "content": "Project",
+                "span": {
+                  "offset": 18,
+                  "length": 7
+                },
+                "confidence": 0.996,
+                "source": "D(1,5.0234,0.3326,6.2272,0.3334,6.2261,0.7086,5.0215,0.7077)"
+              },
+              {
+                "content": "Statement",
+                "span": {
+                  "offset": 26,
+                  "length": 9
+                },
+                "confidence": 0.995,
+                "source": "D(1,6.3366,0.3342,8.1126,0.3273,8.1126,0.6838,6.3359,0.7086)"
+              },
+              {
+                "content": "Date:",
+                "span": {
+                  "offset": 37,
+                  "length": 5
+                },
+                "confidence": 0.992,
+                "source": "D(1,6.9661,1.0443,7.3338,1.0489,7.333,1.1872,6.9658,1.1847)"
+              },
+              {
+                "content": "9/10/2020",
+                "span": {
+                  "offset": 43,
+                  "length": 9
+                },
+                "confidence": 0.994,
+                "source": "D(1,7.3769,1.0491,7.9355,1.0498,7.9355,1.1897,7.376,1.1875)"
+              },
+              {
+                "content": "Receipt",
+                "span": {
+                  "offset": 54,
+                  "length": 7
+                },
+                "confidence": 0.993,
+                "source": "D(1,6.5766,1.2293,7.1107,1.2294,7.1107,1.3834,6.5763,1.384)"
+              },
+              {
+                "content": "#",
+                "span": {
+                  "offset": 62,
+                  "length": 1
+                },
+                "confidence": 0.977,
+                "source": "D(1,7.1535,1.2292,7.2367,1.2289,7.2367,1.383,7.1535,1.3838)"
+              },
+              {
+                "content": "No",
+                "span": {
+                  "offset": 64,
+                  "length": 2
+                },
+                "confidence": 0.995,
+                "source": "D(1,7.2946,1.2292,7.4332,1.2294,7.4332,1.3818,7.2946,1.3829)"
+              },
+              {
+                "content": ".:",
+                "span": {
+                  "offset": 67,
+                  "length": 2
+                },
+                "confidence": 0.992,
+                "source": "D(1,7.4634,1.2292,7.5566,1.2286,7.5567,1.3809,7.4635,1.3815)"
+              },
+              {
+                "content": "9876",
+                "span": {
+                  "offset": 70,
+                  "length": 4
+                },
+                "confidence": 0.988,
+                "source": "D(1,7.6095,1.2288,7.93,1.2252,7.93,1.3784,7.6095,1.3804)"
+              },
+              {
+                "content": "Sold",
+                "span": {
+                  "offset": 76,
+                  "length": 4
+                },
+                "confidence": 0.989,
+                "source": "D(1,1.4098,1.5506,1.7057,1.5536,1.7051,1.7078,1.4095,1.7061)"
+              },
+              {
+                "content": "To",
+                "span": {
+                  "offset": 81,
+                  "length": 2
+                },
+                "confidence": 0.995,
+                "source": "D(1,1.7584,1.5544,1.9063,1.5566,1.9055,1.7109,1.7577,1.7082)"
+              },
+              {
+                "content": "Wingtip",
+                "span": {
+                  "offset": 84,
+                  "length": 7
+                },
+                "confidence": 0.993,
+                "source": "D(1,2.0719,1.5597,2.4681,1.5654,2.4674,1.7174,2.071,1.7118)"
+              },
+              {
+                "content": "Toys",
+                "span": {
+                  "offset": 92,
+                  "length": 4
+                },
+                "confidence": 0.991,
+                "source": "D(1,2.4982,1.5654,2.7393,1.5685,2.7393,1.7217,2.4975,1.7179)"
+              },
+              {
+                "content": "554",
+                "span": {
+                  "offset": 98,
+                  "length": 3
+                },
+                "confidence": 0.997,
+                "source": "D(1,2.0665,1.9104,2.2568,1.9124,2.255,2.0458,2.0658,2.0439)"
+              },
+              {
+                "content": "Magnolia",
+                "span": {
+                  "offset": 102,
+                  "length": 8
+                },
+                "confidence": 0.995,
+                "source": "D(1,2.2917,1.9128,2.7947,1.9151,2.7925,2.0498,2.2898,2.0465)"
+              },
+              {
+                "content": "Way",
+                "span": {
+                  "offset": 111,
+                  "length": 3
+                },
+                "confidence": 0.999,
+                "source": "D(1,2.8319,1.9155,3.0768,1.9173,3.0768,2.0506,2.8297,2.0495)"
+              },
+              {
+                "content": "Walnut,",
+                "span": {
+                  "offset": 116,
+                  "length": 7
+                },
+                "confidence": 0.992,
+                "source": "D(1,2.0629,2.0758,2.4619,2.0766,2.4619,2.2073,2.0629,2.2066)"
+              },
+              {
+                "content": "WY,",
+                "span": {
+                  "offset": 124,
+                  "length": 3
+                },
+                "confidence": 0.989,
+                "source": "D(1,2.4982,2.0765,2.6945,2.0764,2.6941,2.2072,2.4981,2.2073)"
+              },
+              {
+                "content": "98432",
+                "span": {
+                  "offset": 128,
+                  "length": 5
+                },
+                "confidence": 0.996,
+                "source": "D(1,2.7308,2.0766,3.053,2.0762,3.0528,2.2057,2.7304,2.207)"
+              },
+              {
+                "content": "ID#:",
+                "span": {
+                  "offset": 135,
+                  "length": 4
+                },
+                "confidence": 0.985,
+                "source": "D(1,2.0658,2.4112,2.2724,2.4117,2.2718,2.5313,2.0656,2.5308)"
+              },
+              {
+                "content": "5554443",
+                "span": {
+                  "offset": 140,
+                  "length": 7
+                },
+                "confidence": 0.997,
+                "source": "D(1,2.3097,2.4121,2.7503,2.4114,2.7503,2.5329,2.3091,2.5317)"
+              },
+              {
+                "content": "Live",
+                "span": {
+                  "offset": 149,
+                  "length": 4
+                },
+                "confidence": 0.992,
+                "source": "D(1,0.4961,3.7585,0.7562,3.7606,0.7559,3.9105,0.496,3.9082)"
+              },
+              {
+                "content": "Delivery:",
+                "span": {
+                  "offset": 154,
+                  "length": 9
+                },
+                "confidence": 0.994,
+                "source": "D(1,0.8053,3.7613,1.389,3.7651,1.3883,3.9139,0.8049,3.9112)"
+              },
+              {
+                "content": "Online",
+                "span": {
+                  "offset": 166,
+                  "length": 6
+                },
+                "confidence": 0.997,
+                "source": "D(1,1.9966,3.7541,2.4319,3.7551,2.4315,3.9189,1.9963,3.916)"
+              },
+              {
+                "content": "Delivery",
+                "span": {
+                  "offset": 173,
+                  "length": 8
+                },
+                "confidence": 0.998,
+                "source": "D(1,2.4833,3.7551,3.016,3.7568,3.0156,3.9217,2.4827,3.919)"
+              },
+              {
+                "content": "(Livestream):",
+                "span": {
+                  "offset": 182,
+                  "length": 13
+                },
+                "confidence": 0.993,
+                "source": "D(1,3.062,3.757,3.929,3.7574,3.929,3.925,3.0616,3.9216)"
+              },
+              {
+                "content": "Video",
+                "span": {
+                  "offset": 199,
+                  "length": 5
+                },
+                "confidence": 0.996,
+                "source": "D(1,4.4929,3.7523,4.8911,3.7533,4.891,3.9212,4.4932,3.9194)"
+              },
+              {
+                "content": "Delivery",
+                "span": {
+                  "offset": 205,
+                  "length": 8
+                },
+                "confidence": 0.996,
+                "source": "D(1,4.946,3.7534,5.4788,3.755,5.4787,3.9229,4.9459,3.9216)"
+              },
+              {
+                "content": "(On",
+                "span": {
+                  "offset": 214,
+                  "length": 3
+                },
+                "confidence": 0.998,
+                "source": "D(1,5.52,3.7554,5.7616,3.7563,5.7613,3.9237,5.5198,3.923)"
+              },
+              {
+                "content": "Demand):",
+                "span": {
+                  "offset": 218,
+                  "length": 8
+                },
+                "confidence": 0.995,
+                "source": "D(1,5.8193,3.7563,6.4912,3.7562,6.4912,3.9248,5.8189,3.9242)"
+              },
+              {
+                "content": "Training",
+                "span": {
+                  "offset": 249,
+                  "length": 8
+                },
+                "confidence": 0.995,
+                "source": "D(1,0.6836,4.2585,1.2036,4.2603,1.2035,4.4142,0.6849,4.4141)"
+              },
+              {
+                "content": "Date",
+                "span": {
+                  "offset": 258,
+                  "length": 4
+                },
+                "confidence": 0.99,
+                "source": "D(1,1.2569,4.2607,1.5716,4.2595,1.5716,4.4159,1.2568,4.4142)"
+              },
+              {
+                "content": "Description",
+                "span": {
+                  "offset": 272,
+                  "length": 11
+                },
+                "confidence": 0.992,
+                "source": "D(1,2.6225,4.2591,3.3812,4.2605,3.3812,4.4174,2.6225,4.412)"
+              },
+              {
+                "content": "Price",
+                "span": {
+                  "offset": 293,
+                  "length": 5
+                },
+                "confidence": 0.997,
+                "source": "D(1,4.701,4.2633,5.0469,4.266,5.0469,4.3988,4.7007,4.3962)"
+              },
+              {
+                "content": "Discount",
+                "span": {
+                  "offset": 308,
+                  "length": 8
+                },
+                "confidence": 0.995,
+                "source": "D(1,5.8261,4.257,6.4193,4.2614,6.4193,4.4011,5.8261,4.3997)"
+              },
+              {
+                "content": "Line",
+                "span": {
+                  "offset": 326,
+                  "length": 4
+                },
+                "confidence": 0.989,
+                "source": "D(1,7.0515,4.2558,7.3189,4.2585,7.319,4.4001,7.0519,4.3993)"
+              },
+              {
+                "content": "Total",
+                "span": {
+                  "offset": 331,
+                  "length": 5
+                },
+                "confidence": 0.993,
+                "source": "D(1,7.3561,4.2592,7.681,4.2574,7.681,4.4008,7.3561,4.4002)"
+              },
+              {
+                "content": "12/5/2020",
+                "span": {
+                  "offset": 357,
+                  "length": 9
+                },
+                "confidence": 0.995,
+                "source": "D(1,0.8635,4.5018,1.4099,4.502,1.4096,4.6328,0.8641,4.6331)"
+              },
+              {
+                "content": "Manager",
+                "span": {
+                  "offset": 376,
+                  "length": 7
+                },
+                "confidence": 0.998,
+                "source": "D(1,2.5264,4.5041,3.0265,4.5054,3.0261,4.6418,2.5263,4.6397)"
+              },
+              {
+                "content": "Training",
+                "span": {
+                  "offset": 384,
+                  "length": 8
+                },
+                "confidence": 0.995,
+                "source": "D(1,3.0532,4.5057,3.4753,4.5069,3.4753,4.6435,3.0527,4.6417)"
+              },
+              {
+                "content": "$3,500",
+                "span": {
+                  "offset": 402,
+                  "length": 6
+                },
+                "confidence": 0.988,
+                "source": "D(1,4.6947,4.5047,5.0469,4.5046,5.0469,4.629,4.6948,4.6304)"
+              },
+              {
+                "content": "-",
+                "span": {
+                  "offset": 418,
+                  "length": 1
+                },
+                "confidence": 0.913,
+                "source": "D(1,6.0954,4.552,6.1458,4.5526,6.1456,4.5986,6.0952,4.598)"
+              },
+              {
+                "content": "$3,500",
+                "span": {
+                  "offset": 429,
+                  "length": 6
+                },
+                "confidence": 0.988,
+                "source": "D(1,7.188,4.505,7.5426,4.5053,7.5425,4.6301,7.1883,4.6322)"
+              },
+              {
+                "content": "12/10/2020",
+                "span": {
+                  "offset": 456,
+                  "length": 10
+                },
+                "confidence": 0.995,
+                "source": "D(1,0.8329,4.7171,1.4388,4.718,1.4385,4.8493,0.833,4.8485)"
+              },
+              {
+                "content": "Manager",
+                "span": {
+                  "offset": 476,
+                  "length": 7
+                },
+                "confidence": 0.996,
+                "source": "D(1,2.5253,4.7206,3.027,4.7211,3.0266,4.8578,2.5252,4.8565)"
+              },
+              {
+                "content": "Training",
+                "span": {
+                  "offset": 484,
+                  "length": 8
+                },
+                "confidence": 0.995,
+                "source": "D(1,3.0537,4.7214,3.4753,4.7224,3.4753,4.8596,3.0532,4.8577)"
+              },
+              {
+                "content": "$3,500",
+                "span": {
+                  "offset": 502,
+                  "length": 6
+                },
+                "confidence": 0.992,
+                "source": "D(1,4.6955,4.7209,5.0469,4.7218,5.0469,4.8467,4.6955,4.8479)"
+              },
+              {
+                "content": "-",
+                "span": {
+                  "offset": 518,
+                  "length": 1
+                },
+                "confidence": 0.623,
+                "source": "D(1,6.0992,4.7667,6.1481,4.7673,6.1479,4.8146,6.099,4.8141)"
+              },
+              {
+                "content": "$3,500",
+                "span": {
+                  "offset": 529,
+                  "length": 6
+                },
+                "confidence": 0.993,
+                "source": "D(1,7.1891,4.7205,7.5426,4.7205,7.5425,4.8483,7.1892,4.8495)"
+              },
+              {
+                "content": "12/11/2020",
+                "span": {
+                  "offset": 556,
+                  "length": 10
+                },
+                "confidence": 0.994,
+                "source": "D(1,0.8316,4.9321,1.4388,4.9339,1.4388,5.0653,0.8317,5.0642)"
+              },
+              {
+                "content": "Leadership",
+                "span": {
+                  "offset": 588,
+                  "length": 10
+                },
+                "confidence": 0.995,
+                "source": "D(1,2.4775,4.933,3.0688,4.9355,3.0686,5.0744,2.4777,5.0695)"
+              },
+              {
+                "content": "Training",
+                "span": {
+                  "offset": 599,
+                  "length": 8
+                },
+                "confidence": 0.993,
+                "source": "D(1,3.1006,4.9356,3.5251,4.937,3.5251,5.0765,3.1004,5.0747)"
+              },
+              {
+                "content": "$4,500",
+                "span": {
+                  "offset": 629,
+                  "length": 6
+                },
+                "confidence": 0.989,
+                "source": "D(1,4.695,4.9347,5.0524,4.9357,5.0524,5.0628,4.6951,5.0631)"
+              },
+              {
+                "content": "25%",
+                "span": {
+                  "offset": 657,
+                  "length": 3
+                },
+                "confidence": 0.993,
+                "source": "D(1,6.0016,4.938,6.2367,4.9396,6.2367,5.0544,6.0013,5.0529)"
+              },
+              {
+                "content": "$3,375",
+                "span": {
+                  "offset": 682,
+                  "length": 6
+                },
+                "confidence": 0.988,
+                "source": "D(1,7.1888,4.9363,7.5426,4.935,7.5426,5.063,7.1891,5.0654)"
+              },
+              {
+                "content": "Subtotal",
+                "span": {
+                  "offset": 749,
+                  "length": 8
+                },
+                "confidence": 0.995,
+                "source": "D(1,5.5824,6.29,6.1638,6.2909,6.1636,6.4313,5.5827,6.4309)"
+              },
+              {
+                "content": "$10,375",
+                "span": {
+                  "offset": 767,
+                  "length": 7
+                },
+                "confidence": 0.994,
+                "source": "D(1,7.1013,6.2897,7.6367,6.2898,7.6367,6.4377,7.1014,6.4412)"
+              },
+              {
+                "content": "Sales",
+                "span": {
+                  "offset": 795,
+                  "length": 5
+                },
+                "confidence": 0.995,
+                "source": "D(1,5.5836,6.5576,5.9439,6.56,5.9436,6.6981,5.5836,6.6984)"
+              },
+              {
+                "content": "Tax",
+                "span": {
+                  "offset": 801,
+                  "length": 3
+                },
+                "confidence": 0.998,
+                "source": "D(1,5.9893,6.5602,6.2363,6.5618,6.2361,6.6985,5.9891,6.6977)"
+              },
+              {
+                "content": "3%",
+                "span": {
+                  "offset": 814,
+                  "length": 2
+                },
+                "confidence": 0.977,
+                "source": "D(1,7.2631,6.5592,7.4707,6.5592,7.4707,6.6929,7.2632,6.693)"
+              },
+              {
+                "content": "Total",
+                "span": {
+                  "offset": 837,
+                  "length": 5
+                },
+                "confidence": 0.996,
+                "source": "D(1,5.5778,6.8277,5.9256,6.8286,5.9257,6.9669,5.5781,6.967)"
+              },
+              {
+                "content": "$10,686.25",
+                "span": {
+                  "offset": 852,
+                  "length": 10
+                },
+                "confidence": 0.992,
+                "source": "D(1,7.0003,6.8247,7.7412,6.8255,7.741,6.9726,7.0007,6.9781)"
+              },
+              {
+                "content": "Thank",
+                "span": {
+                  "offset": 885,
+                  "length": 5
+                },
+                "confidence": 0.998,
+                "source": "D(1,3.2952,7.8167,3.7039,7.8192,3.7031,7.9799,3.2947,7.9782)"
+              },
+              {
+                "content": "you",
+                "span": {
+                  "offset": 891,
+                  "length": 3
+                },
+                "confidence": 0.996,
+                "source": "D(1,3.7432,7.8193,3.9842,7.8198,3.9833,7.9815,3.7425,7.9801)"
+              },
+              {
+                "content": "for",
+                "span": {
+                  "offset": 895,
+                  "length": 3
+                },
+                "confidence": 0.997,
+                "source": "D(1,4.0314,7.8199,4.2069,7.8202,4.2063,7.9797,4.0305,7.9812)"
+              },
+              {
+                "content": "your",
+                "span": {
+                  "offset": 899,
+                  "length": 4
+                },
+                "confidence": 0.992,
+                "source": "D(1,4.2436,7.8202,4.5422,7.8191,4.5416,7.9793,4.243,7.9793)"
+              },
+              {
+                "content": "business!",
+                "span": {
+                  "offset": 904,
+                  "length": 9
+                },
+                "confidence": 0.986,
+                "source": "D(1,4.5842,7.819,5.1963,7.8185,5.1963,7.9768,4.5836,7.9792)"
+              }
+            ],
+            "lines": [
+              {
+                "content": "Contoso, Ltd.",
+                "source": "D(1,0.5664,0.4195,2.3579,0.4209,2.3576,0.8047,0.5661,0.8033)",
+                "span": {
+                  "offset": 0,
+                  "length": 13
+                }
+              },
+              {
+                "content": "Project Statement",
+                "source": "D(1,5.0206,0.3319,8.112,0.3249,8.1126,0.6999,5.0215,0.707)",
+                "span": {
+                  "offset": 18,
+                  "length": 17
+                }
+              },
+              {
+                "content": "Date: 9/10/2020",
+                "source": "D(1,6.9661,1.0443,7.9331,1.0498,7.9323,1.1886,6.9653,1.1831)",
+                "span": {
+                  "offset": 37,
+                  "length": 15
+                }
+              },
+              {
+                "content": "Receipt # No .: 9876",
+                "source": "D(1,6.576,1.228,7.9264,1.2253,7.9267,1.3807,6.5763,1.3834)",
+                "span": {
+                  "offset": 54,
+                  "length": 20
+                }
+              },
+              {
+                "content": "Sold To Wingtip Toys",
+                "source": "D(1,1.4098,1.5501,2.7393,1.5661,2.738,1.7196,1.4079,1.7035)",
+                "span": {
+                  "offset": 76,
+                  "length": 20
+                }
+              },
+              {
+                "content": "554 Magnolia Way",
+                "source": "D(1,2.0665,1.9104,3.0731,1.9161,3.0724,2.0493,2.0658,2.0436)",
+                "span": {
+                  "offset": 98,
+                  "length": 16
+                }
+              },
+              {
+                "content": "Walnut, WY, 98432",
+                "source": "D(1,2.0628,2.0758,3.0499,2.0756,3.0499,2.2052,2.0629,2.2054)",
+                "span": {
+                  "offset": 116,
+                  "length": 17
+                }
+              },
+              {
+                "content": "ID#: 5554443",
+                "source": "D(1,2.0656,2.4112,2.7499,2.4115,2.7498,2.5315,2.0656,2.5312)",
+                "span": {
+                  "offset": 135,
+                  "length": 12
+                }
+              },
+              {
+                "content": "Live Delivery:",
+                "source": "D(1,0.4961,3.7585,1.3847,3.7651,1.3835,3.9139,0.495,3.9073)",
+                "span": {
+                  "offset": 149,
+                  "length": 14
+                }
+              },
+              {
+                "content": "Online Delivery (Livestream):",
+                "source": "D(1,1.9966,3.7541,3.9244,3.7573,3.9241,3.9234,1.9963,3.9202)",
+                "span": {
+                  "offset": 166,
+                  "length": 29
+                }
+              },
+              {
+                "content": "Video Delivery (On Demand):",
+                "source": "D(1,4.4929,3.7521,6.4881,3.7562,6.4878,3.9237,4.4925,3.9197)",
+                "span": {
+                  "offset": 199,
+                  "length": 27
+                }
+              },
+              {
+                "content": "Training Date",
+                "source": "D(1,0.6836,4.2585,1.571,4.2595,1.5708,4.4134,0.6834,4.4124)",
+                "span": {
+                  "offset": 249,
+                  "length": 13
+                }
+              },
+              {
+                "content": "Description",
+                "source": "D(1,2.6225,4.2572,3.3787,4.26,3.3781,4.4164,2.6219,4.4133)",
+                "span": {
+                  "offset": 272,
+                  "length": 11
+                }
+              },
+              {
+                "content": "Price",
+                "source": "D(1,4.701,4.263,5.0423,4.266,5.0411,4.3976,4.6998,4.3946)",
+                "span": {
+                  "offset": 293,
+                  "length": 5
+                }
+              },
+              {
+                "content": "Discount",
+                "source": "D(1,5.8261,4.257,6.4142,4.2584,6.4139,4.3988,5.8258,4.3974)",
+                "span": {
+                  "offset": 308,
+                  "length": 8
+                }
+              },
+              {
+                "content": "Line Total",
+                "source": "D(1,7.0515,4.2558,7.6783,4.2574,7.678,4.399,7.0511,4.3974)",
+                "span": {
+                  "offset": 326,
+                  "length": 10
+                }
+              },
+              {
+                "content": "12/5/2020",
+                "source": "D(1,0.8635,4.5018,1.4072,4.5017,1.4072,4.6314,0.8636,4.6316)",
+                "span": {
+                  "offset": 357,
+                  "length": 9
+                }
+              },
+              {
+                "content": "Manager Training",
+                "source": "D(1,2.5264,4.5022,3.4742,4.5068,3.4735,4.642,2.5257,4.6375)",
+                "span": {
+                  "offset": 376,
+                  "length": 16
+                }
+              },
+              {
+                "content": "$3,500",
+                "source": "D(1,4.6946,4.5047,5.0453,4.5041,5.0455,4.6285,4.6948,4.6291)",
+                "span": {
+                  "offset": 402,
+                  "length": 6
+                }
+              },
+              {
+                "content": "-",
+                "source": "D(1,6.0954,4.5516,6.1438,4.5518,6.1436,4.5992,6.0952,4.5991)",
+                "span": {
+                  "offset": 418,
+                  "length": 1
+                }
+              },
+              {
+                "content": "$3,500",
+                "source": "D(1,7.188,4.505,7.54,4.5053,7.5399,4.6304,7.1879,4.6302)",
+                "span": {
+                  "offset": 429,
+                  "length": 6
+                }
+              },
+              {
+                "content": "12/10/2020",
+                "source": "D(1,0.8329,4.7171,1.4355,4.7179,1.4353,4.8476,0.8328,4.8467)",
+                "span": {
+                  "offset": 456,
+                  "length": 10
+                }
+              },
+              {
+                "content": "Manager Training",
+                "source": "D(1,2.5254,4.7188,3.4749,4.7221,3.4744,4.8576,2.5249,4.8543)",
+                "span": {
+                  "offset": 476,
+                  "length": 16
+                }
+              },
+              {
+                "content": "$3,500",
+                "source": "D(1,4.6955,4.7209,5.0452,4.7209,5.0452,4.8466,4.6955,4.8466)",
+                "span": {
+                  "offset": 502,
+                  "length": 6
+                }
+              },
+              {
+                "content": "-",
+                "source": "D(1,6.0992,4.766,6.1446,4.7662,6.1444,4.815,6.099,4.8148)",
+                "span": {
+                  "offset": 518,
+                  "length": 1
+                }
+              },
+              {
+                "content": "$3,500",
+                "source": "D(1,7.1891,4.7205,7.5389,4.7202,7.539,4.848,7.1892,4.8483)",
+                "span": {
+                  "offset": 529,
+                  "length": 6
+                }
+              },
+              {
+                "content": "12/11/2020",
+                "source": "D(1,0.8316,4.9321,1.4377,4.9339,1.4373,5.0642,0.8312,5.0623)",
+                "span": {
+                  "offset": 556,
+                  "length": 10
+                }
+              },
+              {
+                "content": "Leadership Training",
+                "source": "D(1,2.4775,4.9326,3.5251,4.9365,3.5245,5.0756,2.4768,5.0708)",
+                "span": {
+                  "offset": 588,
+                  "length": 19
+                }
+              },
+              {
+                "content": "$4,500",
+                "source": "D(1,4.695,4.9347,5.0476,4.9352,5.0474,5.0619,4.6948,5.0613)",
+                "span": {
+                  "offset": 629,
+                  "length": 6
+                }
+              },
+              {
+                "content": "25%",
+                "source": "D(1,6.0016,4.938,6.234,4.9395,6.2333,5.0536,6.0008,5.0521)",
+                "span": {
+                  "offset": 657,
+                  "length": 3
+                }
+              },
+              {
+                "content": "$3,375",
+                "source": "D(1,7.1887,4.9363,7.5419,4.9353,7.5423,5.0633,7.1891,5.0643)",
+                "span": {
+                  "offset": 682,
+                  "length": 6
+                }
+              },
+              {
+                "content": "Subtotal",
+                "source": "D(1,5.5824,6.29,6.1603,6.2901,6.1602,6.4298,5.5824,6.4297)",
+                "span": {
+                  "offset": 749,
+                  "length": 8
+                }
+              },
+              {
+                "content": "$10,375",
+                "source": "D(1,7.1013,6.2897,7.6319,6.2899,7.6319,6.4394,7.1012,6.4391)",
+                "span": {
+                  "offset": 767,
+                  "length": 7
+                }
+              },
+              {
+                "content": "Sales Tax",
+                "source": "D(1,5.5836,6.5576,6.2327,6.559,6.2324,6.6974,5.5834,6.6961)",
+                "span": {
+                  "offset": 795,
+                  "length": 9
+                }
+              },
+              {
+                "content": "3%",
+                "source": "D(1,7.2631,6.5592,7.4695,6.5592,7.4696,6.6924,7.2631,6.6924)",
+                "span": {
+                  "offset": 814,
+                  "length": 2
+                }
+              },
+              {
+                "content": "Total",
+                "source": "D(1,5.5778,6.8273,5.9234,6.8274,5.9234,6.9658,5.5778,6.9657)",
+                "span": {
+                  "offset": 837,
+                  "length": 5
+                }
+              },
+              {
+                "content": "$10,686.25",
+                "source": "D(1,7.0003,6.8247,7.7365,6.8251,7.7365,6.9761,7.0002,6.9758)",
+                "span": {
+                  "offset": 852,
+                  "length": 10
+                }
+              },
+              {
+                "content": "Thank you for your business!",
+                "source": "D(1,3.2948,7.8167,5.1931,7.8185,5.1929,7.98,3.2947,7.9782)",
+                "span": {
+                  "offset": 885,
+                  "length": 28
+                }
+              }
+            ]
+          }
+        ],
+        "paragraphs": [
+          {
+            "content": "Contoso, Ltd.",
+            "source": "D(1,0.5664,0.4195,2.3579,0.4209,2.3576,0.8047,0.5661,0.8033)",
+            "span": {
+              "offset": 0,
+              "length": 13
+            }
+          },
+          {
+            "role": "title",
+            "content": "Project Statement",
+            "source": "D(1,5.0206,0.3319,8.112,0.3249,8.1128,0.6999,5.0215,0.707)",
+            "span": {
+              "offset": 16,
+              "length": 19
+            }
+          },
+          {
+            "content": "Date: 9/10/2020",
+            "source": "D(1,6.9661,1.0443,7.9331,1.0498,7.9323,1.1886,6.9653,1.1831)",
+            "span": {
+              "offset": 37,
+              "length": 15
+            }
+          },
+          {
+            "content": "Receipt # No .: 9876",
+            "source": "D(1,6.576,1.228,7.9264,1.2253,7.9267,1.3807,6.5763,1.3834)",
+            "span": {
+              "offset": 54,
+              "length": 20
+            }
+          },
+          {
+            "content": "Sold To Wingtip Toys",
+            "source": "D(1,1.4098,1.5501,2.7393,1.5661,2.738,1.7196,1.4079,1.7035)",
+            "span": {
+              "offset": 76,
+              "length": 20
+            }
+          },
+          {
+            "content": "554 Magnolia Way",
+            "source": "D(1,2.0665,1.9104,3.0731,1.9161,3.0724,2.0493,2.0658,2.0436)",
+            "span": {
+              "offset": 98,
+              "length": 16
+            }
+          },
+          {
+            "content": "Walnut, WY, 98432",
+            "source": "D(1,2.0628,2.0758,3.0499,2.0756,3.0499,2.2052,2.0629,2.2054)",
+            "span": {
+              "offset": 116,
+              "length": 17
+            }
+          },
+          {
+            "content": "ID#: 5554443",
+            "source": "D(1,2.0656,2.4112,2.7499,2.4115,2.7498,2.5315,2.0656,2.5312)",
+            "span": {
+              "offset": 135,
+              "length": 12
+            }
+          },
+          {
+            "content": "Live Delivery: :selected: Online Delivery (Livestream): :selected:",
+            "source": "D(1,0.4962,3.7312,4.1716,3.7561,4.1704,3.9414,0.4949,3.9164)",
+            "span": {
+              "offset": 149,
+              "length": 48
+            }
+          },
+          {
+            "content": "Video Delivery (On Demand):",
+            "source": "D(1,4.4929,3.7521,6.4881,3.7562,6.4878,3.9237,4.4925,3.9197)",
+            "span": {
+              "offset": 199,
+              "length": 27
+            }
+          },
+          {
+            "content": ":unselected:",
+            "source": "D(1,6.5302,3.7535,6.7153,3.7532,6.7156,3.9402,6.5306,3.9406)",
+            "span": {
+              "offset": 228,
+              "length": 1
+            }
+          },
+          {
+            "content": "Training Date",
+            "source": "D(1,0.508,4.2044,1.752,4.2044,1.752,4.4351,0.508,4.4351)",
+            "span": {
+              "offset": 249,
+              "length": 13
+            }
+          },
+          {
+            "content": "Description",
+            "source": "D(1,1.752,4.2044,4.2478,4.2044,4.2478,4.4351,1.752,4.4351)",
+            "span": {
+              "offset": 272,
+              "length": 11
+            }
+          },
+          {
+            "content": "Price",
+            "source": "D(1,4.2478,4.2044,5.4842,4.2044,5.4842,4.4351,4.2478,4.4351)",
+            "span": {
+              "offset": 293,
+              "length": 5
+            }
+          },
+          {
+            "content": "Discount",
+            "source": "D(1,5.4842,4.2044,6.7282,4.2044,6.7359,4.4351,5.4842,4.4351)",
+            "span": {
+              "offset": 308,
+              "length": 8
+            }
+          },
+          {
+            "content": "Line Total",
+            "source": "D(1,6.7282,4.2044,7.9723,4.2044,7.9723,4.4351,6.7359,4.4351)",
+            "span": {
+              "offset": 326,
+              "length": 10
+            }
+          },
+          {
+            "content": "12/5/2020",
+            "source": "D(1,0.508,4.4351,1.752,4.4351,1.752,4.6736,0.508,4.6736)",
+            "span": {
+              "offset": 357,
+              "length": 9
+            }
+          },
+          {
+            "content": "Manager Training",
+            "source": "D(1,1.752,4.4351,4.2478,4.4351,4.2478,4.6736,1.752,4.6736)",
+            "span": {
+              "offset": 376,
+              "length": 16
+            }
+          },
+          {
+            "content": "$3,500",
+            "source": "D(1,4.2478,4.4351,5.4842,4.4351,5.4918,4.6736,4.2478,4.6736)",
+            "span": {
+              "offset": 402,
+              "length": 6
+            }
+          },
+          {
+            "content": "-",
+            "source": "D(1,5.4842,4.4351,6.7359,4.4351,6.7359,4.6736,5.4918,4.6736)",
+            "span": {
+              "offset": 418,
+              "length": 1
+            }
+          },
+          {
+            "content": "$3,500",
+            "source": "D(1,6.7359,4.4351,7.9723,4.4351,7.9723,4.6736,6.7359,4.6736)",
+            "span": {
+              "offset": 429,
+              "length": 6
+            }
+          },
+          {
+            "content": "12/10/2020",
+            "source": "D(1,0.508,4.6736,1.752,4.6736,1.752,4.8659,0.508,4.8659)",
+            "span": {
+              "offset": 456,
+              "length": 10
+            }
+          },
+          {
+            "content": "Manager Training",
+            "source": "D(1,1.752,4.6736,4.2478,4.6736,4.2478,4.8659,1.752,4.8659)",
+            "span": {
+              "offset": 476,
+              "length": 16
+            }
+          },
+          {
+            "content": "$3,500",
+            "source": "D(1,4.2478,4.6736,5.4918,4.6736,5.4918,4.8659,4.2478,4.8659)",
+            "span": {
+              "offset": 502,
+              "length": 6
+            }
+          },
+          {
+            "content": "-",
+            "source": "D(1,5.4918,4.6736,6.7359,4.6736,6.7436,4.8659,5.4918,4.8659)",
+            "span": {
+              "offset": 518,
+              "length": 1
+            }
+          },
+          {
+            "content": "$3,500",
+            "source": "D(1,6.7359,4.6736,7.9723,4.6736,7.9723,4.8659,6.7436,4.8659)",
+            "span": {
+              "offset": 529,
+              "length": 6
+            }
+          },
+          {
+            "content": "12/11/2020",
+            "source": "D(1,0.508,4.8659,1.752,4.8659,1.752,5.1044,0.508,5.112)",
+            "span": {
+              "offset": 556,
+              "length": 10
+            }
+          },
+          {
+            "content": "Leadership Training",
+            "source": "D(1,1.752,4.8659,4.2478,4.8659,4.2478,5.312,1.752,5.312)",
+            "span": {
+              "offset": 588,
+              "length": 19
+            }
+          },
+          {
+            "content": "$4,500",
+            "source": "D(1,4.2478,4.8659,5.4918,4.8659,5.4918,5.312,4.2478,5.312)",
+            "span": {
+              "offset": 629,
+              "length": 6
+            }
+          },
+          {
+            "content": "25%",
+            "source": "D(1,5.4918,4.8659,6.7436,4.8659,6.7436,5.312,5.4918,5.312)",
+            "span": {
+              "offset": 657,
+              "length": 3
+            }
+          },
+          {
+            "content": "$3,375",
+            "source": "D(1,6.7436,4.8659,7.9723,4.8659,7.9723,5.312,6.7436,5.312)",
+            "span": {
+              "offset": 682,
+              "length": 6
+            }
+          },
+          {
+            "content": "Subtotal",
+            "source": "D(1,5.5228,6.228,6.7624,6.228,6.7624,6.4937,5.5228,6.4992)",
+            "span": {
+              "offset": 749,
+              "length": 8
+            }
+          },
+          {
+            "content": "$10,375",
+            "source": "D(1,6.7624,6.228,7.9743,6.228,7.9743,6.4937,6.7624,6.4937)",
+            "span": {
+              "offset": 767,
+              "length": 7
+            }
+          },
+          {
+            "content": "Sales Tax",
+            "source": "D(1,5.5228,6.4992,6.7624,6.4937,6.7624,6.7594,5.5173,6.7594)",
+            "span": {
+              "offset": 795,
+              "length": 9
+            }
+          },
+          {
+            "content": "3%",
+            "source": "D(1,6.7624,6.4937,7.9743,6.4937,7.9798,6.7594,6.7624,6.7594)",
+            "span": {
+              "offset": 814,
+              "length": 2
+            }
+          },
+          {
+            "content": "Total",
+            "source": "D(1,5.5173,6.7594,6.7624,6.7594,6.7624,7.0252,5.5173,7.0252)",
+            "span": {
+              "offset": 837,
+              "length": 5
+            }
+          },
+          {
+            "content": "$10,686.25",
+            "source": "D(1,6.7624,6.7594,7.9798,6.7594,7.9798,7.0307,6.7624,7.0252)",
+            "span": {
+              "offset": 852,
+              "length": 10
+            }
+          },
+          {
+            "content": "Thank you for your business!",
+            "source": "D(1,3.2948,7.8167,5.1931,7.8185,5.1929,7.98,3.2947,7.9782)",
+            "span": {
+              "offset": 885,
+              "length": 28
+            }
+          }
+        ],
+        "sections": [
+          {
+            "span": {
+              "offset": 0,
+              "length": 913
+            },
+            "elements": [
+              "/sections/1",
+              "/sections/2"
+            ]
+          },
+          {
+            "span": {
+              "offset": 0,
+              "length": 13
+            },
+            "elements": [
+              "/paragraphs/0"
+            ]
+          },
+          {
+            "span": {
+              "offset": 16,
+              "length": 897
+            },
+            "elements": [
+              "/paragraphs/1",
+              "/paragraphs/2",
+              "/paragraphs/3",
+              "/paragraphs/4",
+              "/paragraphs/5",
+              "/paragraphs/6",
+              "/paragraphs/7",
+              "/paragraphs/8",
+              "/paragraphs/9",
+              "/paragraphs/10",
+              "/tables/0",
+              "/tables/1",
+              "/paragraphs/37"
+            ]
+          }
+        ],
+        "tables": [
+          {
+            "rowCount": 5,
+            "columnCount": 5,
+            "cells": [
+              {
+                "kind": "columnHeader",
+                "rowIndex": 0,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Training Date",
+                "source": "D(1,0.508,4.2044,1.752,4.2044,1.752,4.4351,0.508,4.4351)",
+                "span": {
+                  "offset": 249,
+                  "length": 13
+                },
+                "elements": [
+                  "/paragraphs/11"
+                ]
+              },
+              {
+                "kind": "columnHeader",
+                "rowIndex": 0,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Description",
+                "source": "D(1,1.752,4.2044,4.2478,4.2044,4.2478,4.4351,1.752,4.4351)",
+                "span": {
+                  "offset": 272,
+                  "length": 11
+                },
+                "elements": [
+                  "/paragraphs/12"
+                ]
+              },
+              {
+                "kind": "columnHeader",
+                "rowIndex": 0,
+                "columnIndex": 2,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Price",
+                "source": "D(1,4.2478,4.2044,5.4842,4.2044,5.4842,4.4351,4.2478,4.4351)",
+                "span": {
+                  "offset": 293,
+                  "length": 5
+                },
+                "elements": [
+                  "/paragraphs/13"
+                ]
+              },
+              {
+                "kind": "columnHeader",
+                "rowIndex": 0,
+                "columnIndex": 3,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Discount",
+                "source": "D(1,5.4842,4.2044,6.7282,4.2044,6.7359,4.4351,5.4842,4.4351)",
+                "span": {
+                  "offset": 308,
+                  "length": 8
+                },
+                "elements": [
+                  "/paragraphs/14"
+                ]
+              },
+              {
+                "kind": "columnHeader",
+                "rowIndex": 0,
+                "columnIndex": 4,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Line Total",
+                "source": "D(1,6.7282,4.2044,7.9723,4.2044,7.9723,4.4351,6.7359,4.4351)",
+                "span": {
+                  "offset": 326,
+                  "length": 10
+                },
+                "elements": [
+                  "/paragraphs/15"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 1,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "12/5/2020",
+                "source": "D(1,0.508,4.4351,1.752,4.4351,1.752,4.6736,0.508,4.6736)",
+                "span": {
+                  "offset": 357,
+                  "length": 9
+                },
+                "elements": [
+                  "/paragraphs/16"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 1,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Manager Training",
+                "source": "D(1,1.752,4.4351,4.2478,4.4351,4.2478,4.6736,1.752,4.6736)",
+                "span": {
+                  "offset": 376,
+                  "length": 16
+                },
+                "elements": [
+                  "/paragraphs/17"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 1,
+                "columnIndex": 2,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "$3,500",
+                "source": "D(1,4.2478,4.4351,5.4842,4.4351,5.4918,4.6736,4.2478,4.6736)",
+                "span": {
+                  "offset": 402,
+                  "length": 6
+                },
+                "elements": [
+                  "/paragraphs/18"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 1,
+                "columnIndex": 3,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "-",
+                "source": "D(1,5.4842,4.4351,6.7359,4.4351,6.7359,4.6736,5.4918,4.6736)",
+                "span": {
+                  "offset": 418,
+                  "length": 1
+                },
+                "elements": [
+                  "/paragraphs/19"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 1,
+                "columnIndex": 4,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "$3,500",
+                "source": "D(1,6.7359,4.4351,7.9723,4.4351,7.9723,4.6736,6.7359,4.6736)",
+                "span": {
+                  "offset": 429,
+                  "length": 6
+                },
+                "elements": [
+                  "/paragraphs/20"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 2,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "12/10/2020",
+                "source": "D(1,0.508,4.6736,1.752,4.6736,1.752,4.8659,0.508,4.8659)",
+                "span": {
+                  "offset": 456,
+                  "length": 10
+                },
+                "elements": [
+                  "/paragraphs/21"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 2,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Manager Training",
+                "source": "D(1,1.752,4.6736,4.2478,4.6736,4.2478,4.8659,1.752,4.8659)",
+                "span": {
+                  "offset": 476,
+                  "length": 16
+                },
+                "elements": [
+                  "/paragraphs/22"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 2,
+                "columnIndex": 2,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "$3,500",
+                "source": "D(1,4.2478,4.6736,5.4918,4.6736,5.4918,4.8659,4.2478,4.8659)",
+                "span": {
+                  "offset": 502,
+                  "length": 6
+                },
+                "elements": [
+                  "/paragraphs/23"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 2,
+                "columnIndex": 3,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "-",
+                "source": "D(1,5.4918,4.6736,6.7359,4.6736,6.7436,4.8659,5.4918,4.8659)",
+                "span": {
+                  "offset": 518,
+                  "length": 1
+                },
+                "elements": [
+                  "/paragraphs/24"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 2,
+                "columnIndex": 4,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "$3,500",
+                "source": "D(1,6.7359,4.6736,7.9723,4.6736,7.9723,4.8659,6.7436,4.8659)",
+                "span": {
+                  "offset": 529,
+                  "length": 6
+                },
+                "elements": [
+                  "/paragraphs/25"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 3,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "12/11/2020",
+                "source": "D(1,0.508,4.8659,1.752,4.8659,1.752,5.1044,0.508,5.112)",
+                "span": {
+                  "offset": 556,
+                  "length": 10
+                },
+                "elements": [
+                  "/paragraphs/26"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 3,
+                "columnIndex": 1,
+                "rowSpan": 2,
+                "columnSpan": 1,
+                "content": "Leadership Training",
+                "source": "D(1,1.752,4.8659,4.2478,4.8659,4.2478,5.312,1.752,5.312)",
+                "span": {
+                  "offset": 588,
+                  "length": 19
+                },
+                "elements": [
+                  "/paragraphs/27"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 3,
+                "columnIndex": 2,
+                "rowSpan": 2,
+                "columnSpan": 1,
+                "content": "$4,500",
+                "source": "D(1,4.2478,4.8659,5.4918,4.8659,5.4918,5.312,4.2478,5.312)",
+                "span": {
+                  "offset": 629,
+                  "length": 6
+                },
+                "elements": [
+                  "/paragraphs/28"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 3,
+                "columnIndex": 3,
+                "rowSpan": 2,
+                "columnSpan": 1,
+                "content": "25%",
+                "source": "D(1,5.4918,4.8659,6.7436,4.8659,6.7436,5.312,5.4918,5.312)",
+                "span": {
+                  "offset": 657,
+                  "length": 3
+                },
+                "elements": [
+                  "/paragraphs/29"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 3,
+                "columnIndex": 4,
+                "rowSpan": 2,
+                "columnSpan": 1,
+                "content": "$3,375",
+                "source": "D(1,6.7436,4.8659,7.9723,4.8659,7.9723,5.312,6.7436,5.312)",
+                "span": {
+                  "offset": 682,
+                  "length": 6
+                },
+                "elements": [
+                  "/paragraphs/30"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 4,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "",
+                "source": "D(1,0.508,5.112,1.752,5.1044,1.752,5.312,0.5003,5.312)",
+                "span": {
+                  "offset": 709,
+                  "length": 0
+                }
+              }
+            ],
+            "source": "D(1,0.5032,4.1992,7.9941,4.1987,7.996,5.308,0.5049,5.3081)",
+            "span": {
+              "offset": 232,
+              "length": 497
+            }
+          },
+          {
+            "rowCount": 3,
+            "columnCount": 2,
+            "cells": [
+              {
+                "kind": "content",
+                "rowIndex": 0,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Subtotal",
+                "source": "D(1,5.5228,6.228,6.7624,6.228,6.7624,6.4937,5.5228,6.4992)",
+                "span": {
+                  "offset": 749,
+                  "length": 8
+                },
+                "elements": [
+                  "/paragraphs/31"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 0,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "$10,375",
+                "source": "D(1,6.7624,6.228,7.9743,6.228,7.9743,6.4937,6.7624,6.4937)",
+                "span": {
+                  "offset": 767,
+                  "length": 7
+                },
+                "elements": [
+                  "/paragraphs/32"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 1,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Sales Tax",
+                "source": "D(1,5.5228,6.4992,6.7624,6.4937,6.7624,6.7594,5.5173,6.7594)",
+                "span": {
+                  "offset": 795,
+                  "length": 9
+                },
+                "elements": [
+                  "/paragraphs/33"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 1,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "3%",
+                "source": "D(1,6.7624,6.4937,7.9743,6.4937,7.9798,6.7594,6.7624,6.7594)",
+                "span": {
+                  "offset": 814,
+                  "length": 2
+                },
+                "elements": [
+                  "/paragraphs/34"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 2,
+                "columnIndex": 0,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "Total",
+                "source": "D(1,5.5173,6.7594,6.7624,6.7594,6.7624,7.0252,5.5173,7.0252)",
+                "span": {
+                  "offset": 837,
+                  "length": 5
+                },
+                "elements": [
+                  "/paragraphs/35"
+                ]
+              },
+              {
+                "kind": "content",
+                "rowIndex": 2,
+                "columnIndex": 1,
+                "rowSpan": 1,
+                "columnSpan": 1,
+                "content": "$10,686.25",
+                "source": "D(1,6.7624,6.7594,7.9798,6.7594,7.9798,7.0307,6.7624,7.0252)",
+                "span": {
+                  "offset": 852,
+                  "length": 10
+                },
+                "elements": [
+                  "/paragraphs/36"
+                ]
+              }
+            ],
+            "source": "D(1,5.5403,6.2418,7.9864,6.2424,7.9847,7.0164,5.5384,7.0156)",
+            "span": {
+              "offset": 732,
+              "length": 150
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

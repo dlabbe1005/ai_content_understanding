@@ -1,0 +1,272 @@
+{
+  "id": "480bb7d0-eb22-4853-97c8-1b33a40cbf67",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "cu_video_analyzer_ads",
+    "apiVersion": "2024-12-01-preview",
+    "createdAt": "2024-12-09T17:58:26Z",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "# Shot 0:0.0 => 0:3.712\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:0.0 ![](keyFrame.0.jpg)\n- 0:1.1 ![](keyFrame.1001.jpg)\n- 0:2.2 ![](keyFrame.2002.jpg)\n- 0:3.3 ![](keyFrame.3003.jpg)",
+        "fields": {
+          "productName": {
+            "type": "string",
+            "valueString": "Fanta"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Fanta"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The scene opens in a cozy, dimly lit living room filled with ambient lighting and warm colors. Several people are lounging on comfortable furniture, with various snacks and drinks on a central table, creating a relaxed and inviting atmosphere."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 0,
+        "endTimeMs": 3712,
+        "width": 640,
+        "height": 360
+      },
+      {
+        "markdown": "# Shot 0:3.712 => 0:8.842\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:3.712 ![](keyFrame.3712.jpg)\n- 0:4.713 ![](keyFrame.4713.jpg)\n- 0:5.714 ![](keyFrame.5714.jpg)\n- 0:6.715 ![](keyFrame.6715.jpg)\n- 0:7.716 ![](keyFrame.7716.jpg)\n- 0:8.717 ![](keyFrame.8717.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Fanta"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Fanta"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The focus shifts to a close-up of a glass filled with a vibrant orange soda, likely Fanta. The glass is placed on a table, with a background of soft, decorative lighting, enhancing the drink's refreshing appeal."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 3712,
+        "endTimeMs": 8842,
+        "width": 640,
+        "height": 360
+      },
+      {
+        "markdown": "# Shot 0:8.842 => 0:9.259\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:8.842 ![](keyFrame.8842.jpg)",
+        "fields": {
+          "productName": {
+            "type": "string",
+            "valueString": "Fanta"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Fanta"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "A close-up shot of the fizzy orange soda showcases the effervescence and refreshing quality of the drink, with bubbles rising to the surface."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 8842,
+        "endTimeMs": 9259,
+        "width": 640,
+        "height": 360
+      },
+      {
+        "markdown": "# Shot 0:9.259 => 0:10.928\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:9.259 ![](keyFrame.9259.jpg)\n- 0:10.260 ![](keyFrame.10260.jpg)",
+        "fields": {
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Fanta"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Fanta"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The camera zooms in on the orange soda, with a dynamic background that highlights the drink's vibrant color and refreshing nature. The scene is bright and energetic, emphasizing the drink's appeal."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 9259,
+        "endTimeMs": 10928,
+        "width": 640,
+        "height": 360
+      },
+      {
+        "markdown": "# Shot 0:10.928 => 0:19.228\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:10.928 ![](keyFrame.10928.jpg)\n- 0:11.929 ![](keyFrame.11929.jpg)\n- 0:12.930 ![](keyFrame.12930.jpg)\n- 0:13.931 ![](keyFrame.13931.jpg)\n- 0:14.932 ![](keyFrame.14932.jpg)\n- 0:15.933 ![](keyFrame.15933.jpg)\n- 0:16.934 ![](keyFrame.16934.jpg)\n- 0:17.935 ![](keyFrame.17935.jpg)\n- 0:18.936 ![](keyFrame.18936.jpg)",
+        "fields": {
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Fanta"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The segment features a refreshing orange beverage with a focus on its vibrant color and effervescence. The background is lively and colorful, suggesting a vibrant and energetic atmosphere. The lighting highlights the fizz and freshness of the drink, making it look enticing and invigorating."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 10928,
+        "endTimeMs": 19228,
+        "width": 640,
+        "height": 360
+      },
+      {
+        "markdown": "# Shot 0:19.228 => 0:20.729\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:19.228 ![](keyFrame.19228.jpg)\n- 0:20.229 ![](keyFrame.20229.jpg)",
+        "fields": {
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Fanta"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The segment transitions to a blurred view, maintaining the upbeat ambiance. The focus remains on the vibrant setting, indicating the continuation of a lively scene. The color palette remains bright and engaging."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 19228,
+        "endTimeMs": 20729,
+        "width": 640,
+        "height": 360
+      },
+      {
+        "markdown": "# Shot 0:20.729 => 0:22.564\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:20.729 ![](keyFrame.20729.jpg)\n- 0:21.730 ![](keyFrame.21730.jpg)",
+        "fields": {
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Fanta"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The drink is shown against an urban backdrop, emphasizing a dynamic and adventurous lifestyle. The orange beverage stands out with its rich hue, suggesting it as a perfect companion for thrilling experiences. The scene is well-lit, highlighting the drink's appeal."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 20729,
+        "endTimeMs": 22564,
+        "width": 640,
+        "height": 360
+      },
+      {
+        "markdown": "# Shot 0:22.564 => 0:24.775\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:22.564 ![](keyFrame.22564.jpg)\n- 0:23.565 ![](keyFrame.23565.jpg)\n- 0:24.566 ![](keyFrame.24566.jpg)",
+        "fields": {
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productName": {
+            "type": "string",
+            "valueString": "Fanta"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "An individual is seen enjoying the orange soda, reinforcing the message of it being the best-tasting orange beverage. The setting is casual and cozy, with warm lighting that enhances the inviting nature of the drink."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 22564,
+        "endTimeMs": 24775,
+        "width": 640,
+        "height": 360
+      },
+      {
+        "markdown": "# Shot 0:24.775 => 0:26.735\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:24.775 ![](keyFrame.24775.jpg)\n- 0:25.776 ![](keyFrame.25776.jpg)",
+        "fields": {
+          "productName": {
+            "type": "string",
+            "valueString": "Fanta"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "Coca-Cola"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The scene depicts a group of friends relaxing in a cozy, warmly-lit room. A bottle of the orange soda is prominently placed on the table, suggesting it as a central element of social gatherings. The environment is friendly and inviting, with soft lighting and a harmonious color palette."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 24775,
+        "endTimeMs": 26735,
+        "width": 640,
+        "height": 360
+      },
+      {
+        "markdown": "# Shot 0:26.735 => 0:30.30\n## Transcript\n```\nWEBVTT\n\n```\n## Key Frames\n- 0:26.735 ![](keyFrame.26735.jpg)\n- 0:27.736 ![](keyFrame.27736.jpg)\n- 0:28.737 ![](keyFrame.28737.jpg)\n- 0:29.738 ![](keyFrame.29738.jpg)",
+        "fields": {
+          "productName": {
+            "type": "string",
+            "valueString": "Fanta Zero Sugar"
+          },
+          "productType": {
+            "type": "string",
+            "valueString": "ConsumerGoods"
+          },
+          "productBrand": {
+            "type": "string",
+            "valueString": "The Coca-Cola Company"
+          },
+          "description": {
+            "type": "string",
+            "valueString": "The video segment features a vibrant and lively scene with a focus on Fanta beverages. The setting includes a wooden table with two bottles of Fanta, one labeled 'Fanta Zero Sugar' in bold branding. The background is softly blurred, showcasing indoor decor with warm lighting that creates a cozy ambiance. The color palette is dominated by bright orange, highlighting the refreshing and energetic appeal of the drinks. The text 'TRY THE IRRESISTIBLE TASTE' is prominently displayed, emphasizing the product's appeal. Overall, the scene conveys a sense of freshness and enjoyment."
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 26735,
+        "endTimeMs": 30030,
+        "width": 640,
+        "height": 360
+      }
+    ]
+  }
+}

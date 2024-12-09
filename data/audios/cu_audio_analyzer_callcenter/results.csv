@@ -1,0 +1,4 @@
+file_name,Sentiment,Companies,People,Topics
+Call1_separated_16k_health_insurance,Positive,Contoso;,Mary Rondo(Customer);,Health insurance enrollment;Personal information collection;Membership card request;
+Call3_separated_16k_pharmacy_call,Neutral,Contoso Pharmacy;,Mary(Customer);,Prescription refill;Medication change;Customer service;
+Call6_mono_16k_az_apply_loan,Positive,Contoso;,Sam(Agent);Mary Smith(Customer);,Loan application;Relocation;Existing loans;Home purchase;

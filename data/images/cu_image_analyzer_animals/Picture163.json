@@ -1,0 +1,38 @@
+{
+  "id": "e9d2a4e8-5e82-4e87-b098-b16e1a2b4238",
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "cu_image_analyzer_animals",
+    "apiVersion": "2024-12-01-preview",
+    "createdAt": "2024-12-09T18:19:17Z",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "![image](image)\n",
+        "fields": {
+          "Title": {
+            "type": "string",
+            "valueString": "Close-up of a Lion"
+          },
+          "AnimalSpecies": {
+            "type": "string",
+            "valueString": "lion"
+          },
+          "NumberOfIndividuals": {
+            "type": "integer",
+            "valueInteger": 1
+          }
+        },
+        "kind": "document",
+        "startPageNumber": 1,
+        "endPageNumber": 1,
+        "unit": "pixel",
+        "pages": [
+          {
+            "pageNumber": 1
+          }
+        ]
+      }
+    ]
+  }
+}

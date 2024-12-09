@@ -1,0 +1,50 @@
+{
+    "description": "Call transcript analyzer for call centers",
+    "scenario": "callCenter",
+    "config": {
+      "returnDetails": true,
+      "locales": ["en-US"]
+    },
+    "fieldSchema": {
+      "fields": {
+        "Summary": {
+          "type": "string",
+          "method": "generate",
+          "description": "Summary of the call, including the main topics discussed and any resolutions or actions taken."
+        },
+        "Topics": {
+          "type": "array",
+          "description": "List of topics discussed in the call",
+          "items": {
+            "type": "string"
+          }
+        },
+        "Sentiment": {
+          "type": "string",
+          "method": "classify",
+          "enum": [ "Positive", "Neutral", "Negative" ]
+        },
+        "People": {
+          "type": "array",
+          "description": "List of people mentioned",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Name": { "type": "string" },
+              "Role": { "type": "string" }
+            }
+          }
+        },
+        "Companies": {
+          "type": "array",
+          "description": "List of companies mentioned",
+          "items": {
+            "type": "object",
+            "properties": {
+              "Name": {"type": "string"}
+            }
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,10 @@
+file_name,VendorName,Description,Amount
+Invoice-6,"Contoso, Ltd.",Manager Training,3500
+Invoice-6,"Contoso, Ltd.",Manager Training,3500
+Invoice-6,"Contoso, Ltd.",Leadership Training,3375
+invoice-logic-apps-tutorial,CONTOSO LTD.,Consulting Services,60
+invoice-logic-apps-tutorial,CONTOSO LTD.,Document Fee,30
+invoice-logic-apps-tutorial,CONTOSO LTD.,Printing Fee,10
+invoice,CONTOSO LTD.,Consulting Services,60
+invoice,CONTOSO LTD.,Document Fee,30
+invoice,CONTOSO LTD.,Printing Fee,10
